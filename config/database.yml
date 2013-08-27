@@ -51,7 +51,7 @@ test:
   database: youhou_test
   pool: 5
   #username should be changed to your user name
-  username: orlandolee
+  username: postgres
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
