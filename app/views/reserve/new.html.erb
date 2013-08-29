@@ -1,0 +1,10 @@
+<%= form_tag("/reserve", method: "post") do %>
+  <%= label_tag("youhou.co/") %>
+  <%= text_field_tag(:username,@username) %>
+  <br>
+  
+  <%= email_field_tag "email","Your email address"%>
+  <br>
+  <%= submit_tag "Reserve" %>
+<% end %>
+
