@@ -10,6 +10,6 @@ class UserMailer < ActionMailer::Base
     @user = user
     @greeting = "Hi"
 
-    mail to: user.email,subject: "Sign Up Confirmation"
+    mail to: @user.email,subject: "Sign Up Confirmation"
   end
 end

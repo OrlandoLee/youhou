@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40e2209-13cf-43c5-b59a-2c6a24b3412a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reserve_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reserve_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
     </list>
     <ignored path="youhou.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377837647789" ignored="false" />
     <file path="/reserve_controller.rb" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377840433253" ignored="false" />
-    <file path="/signup_confirmation.text.erb" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377840627954" ignored="false" />
+    <file path="/signup_confirmation.text.erb" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377841026151" ignored="false" />
     <file path="/user_mailer.rb" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377840366148" ignored="false" />
     <file path="/development.rb" changelist="f40e2209-13cf-43c5-b59a-2c6a24b3412a" time="1377839628920" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reserve_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reserve_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/reserve_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.393586">
+            <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,16 +43,16 @@
       <file leaf-file-name="user_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+            <state line="12" column="14" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_confirmation.text.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="signup_confirmation.text.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="37" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.25">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,8 +86,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/controllers/reserve_controller.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb" />
       </list>
     </option>
@@ -595,23 +591,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/reserve_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.25">
+        <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+        <state line="12" column="14" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reserve_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.text.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.393586">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
