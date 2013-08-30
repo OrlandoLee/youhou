@@ -9,11 +9,13 @@ class ReserveController < ApplicationController
     if !User.find_by_username(params[:username]) && !User.find_by_email(params[:email]) #not safe
      @user.username = params[:username]
      @user.email = params[:email]
-     @user.save
-     UserMailer.welcome_email(@user)
+     if @user.save
+       UserMailer.signup_confirmation(@user).deliver
+     else
+      raise 'can not send email'
+     end
     else
       raise 'exists'
-    end    
-    #send email
+    end
   end
 end
