@@ -6369,3 +6369,73 @@ Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 100ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 11:04:54 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 11:04:55 -0700
