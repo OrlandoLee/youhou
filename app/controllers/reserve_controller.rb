@@ -3,6 +3,7 @@ class ReserveController < ApplicationController
   end
   def new
     @username = params[:username]
+    #add judgement
   end
   def save
     @user = User.new
@@ -12,10 +13,12 @@ class ReserveController < ApplicationController
      if @user.save
        UserMailer.signup_confirmation(@user).deliver
      else
-      raise 'can not send email'
+      #raise 'can not send email'
+       logger.info("can not send email for #{@user.username}")
      end
     else
-      raise 'exists'
+      logger.info("username: #{@user.username} or email exists")
+      #raise 'username or email exists'
     end
   end
 end
