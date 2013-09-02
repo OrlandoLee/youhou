@@ -5407,3 +5407,405 @@ Hi, This is the first mail we send from youhou.co
   [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
   Rendered reserve/save.html.erb within layouts/application (2.4ms)
 Completed 200 OK in 3884ms (Views: 9.4ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:44 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 09:21:45 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:21:52 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:21:57 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+Completed 500 Internal Server Error in 25ms
+
+RuntimeError (exists):
+  app/controllers/reserve_controller.rb:18:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:22:11 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"zongshengli@ucla.edu", "commit"=>"Reserve"}
+  [1m[36mUser Load (394.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1[0m
+Completed 500 Internal Server Error in 397ms
+
+RuntimeError (exists):
+  app/controllers/reserve_controller.rb:18:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:22:17 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlandolee", "email"=>"zongshengli@ucla.edu", "commit"=>"Reserve"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlandolee' LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'zongshengli@ucla.edu' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 02 Sep 2013 16:22:17 UTC +00:00], ["email", "zongshengli@ucla.edu"], ["updated_at", Mon, 02 Sep 2013 16:22:17 UTC +00:00], ["username", "orlandolee"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered user_mailer/signup_confirmation.text.erb (0.1ms)
+
+Sent mail to zongshengli@ucla.edu (2832.7ms)
+Date: Mon, 02 Sep 2013 09:22:17 -0700
+From: youhou.co@example.com
+To: zongshengli@ucla.edu
+Message-ID: <5224bb39e4835_1d73fea79e317c01934d@Orlandos-MacBook-Air.local.mail>
+Subject: Sign Up Confirmation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+orlandolee
+
+Hi, This is the first mail we send from youhou.co
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered reserve/save.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2865ms (Views: 7.6ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:22:20 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlandolee", "email"=>"zongshengli@ucla.edu", "commit"=>"Reserve"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlandolee' LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (exists):
+  app/controllers/reserve_controller.rb:18:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+  [1m[36mSQL (1.7ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (5.5ms)[0m  DROP TABLE "users"
+  [1m[36m (26.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "email" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 91ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:49 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 09:22:50 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:22:55 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:23:00 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'lizongshenglzs@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (4.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 02 Sep 2013 16:23:00 UTC +00:00], ["email", "lizongshenglzs@gmail.com"], ["updated_at", Mon, 02 Sep 2013 16:23:00 UTC +00:00], ["username", "orlando"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered user_mailer/signup_confirmation.text.erb (0.5ms)
+
+Sent mail to lizongshenglzs@gmail.com (655.8ms)
+Date: Mon, 02 Sep 2013 09:23:00 -0700
+From: youhou.co@example.com
+To: lizongshenglzs@gmail.com
+Message-ID: <5224bb647a910_31d3ffce951b58c118c@Orlandos-MacBook-Air.local.mail>
+Subject: Sign Up Confirmation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+orlando
+
+Hi, This is the first mail we send from youhou.co
+Completed 500 Internal Server Error in 710ms
+
+Net::SMTPAuthenticationError (535 Authentication failed: Bad username / password
+):
+  app/controllers/reserve_controller.rb:13:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 80ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 09:30:07 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:12 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:30:17 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+Completed 500 Internal Server Error in 37ms
+
+RuntimeError (exists):
+  app/controllers/reserve_controller.rb:18:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.6ms)
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 09:30:28 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlandolee", "email"=>"zongshengli@ucla.edu", "commit"=>"Reserve"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'orlandolee' LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'zongshengli@ucla.edu' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.3ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 02 Sep 2013 16:30:28 UTC +00:00], ["email", "zongshengli@ucla.edu"], ["updated_at", Mon, 02 Sep 2013 16:30:28 UTC +00:00], ["username", "orlandolee"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  Rendered user_mailer/signup_confirmation.text.erb (0.4ms)
+
+Sent mail to zongshengli@ucla.edu (1255.6ms)
+Date: Mon, 02 Sep 2013 09:30:28 -0700
+From: youhou.co@example.com
+To: zongshengli@ucla.edu
+Message-ID: <5224bd24354df_3ab3fc51a03de7c63471@Orlandos-MacBook-Air.local.mail>
+Subject: Sign Up Confirmation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+orlandolee
+
+Hi, This is the first mail we send from youhou.co
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered reserve/save.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1296ms (Views: 8.1ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 09:30:29 -0700
