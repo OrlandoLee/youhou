@@ -28,7 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 #performance monitor
-gem 'newrelic_rpm'
+#gem 'newrelic_rpm'
 
 
 
