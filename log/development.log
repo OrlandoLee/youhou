@@ -5330,3 +5330,80 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-30 08:52:05
 
 
 Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-08-30 08:52:07 -0700
+  [1m[36mSQL (2.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (9.3ms)[0m  DROP TABLE "users"
+  [1m[36m (12.2ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "email" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.9ms)[0m  SELECT version FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 92ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 08:45:59 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 08:46:01 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 08:46:07 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 08:46:25 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[35mUser Load (2.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'lizongshenglzs@gmail.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 02 Sep 2013 15:46:26 UTC +00:00], ["email", "lizongshenglzs@gmail.com"], ["updated_at", Mon, 02 Sep 2013 15:46:26 UTC +00:00], ["username", "orlando"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered user_mailer/signup_confirmation.text.erb (0.4ms)
+
+Sent mail to lizongshenglzs@gmail.com (2840.6ms)
+Date: Mon, 02 Sep 2013 08:46:26 -0700
+From: youhou.co@example.com
+To: lizongshenglzs@gmail.com
+Message-ID: <5224b2d2a529b_1d73fea79d4146419283@Orlandos-MacBook-Air.local.mail>
+Subject: Sign Up Confirmation
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+orlando
+
+Hi, This is the first mail we send from youhou.co
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered reserve/save.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 3884ms (Views: 9.4ms | ActiveRecord: 12.5ms)
