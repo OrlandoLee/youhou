@@ -6174,3 +6174,198 @@ Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:06:05 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:06:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 10:22:43 -0700
+Processing by ReserveController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+  Rendered reserve/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 10:22:44 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:22:49 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 10:22:55 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1[0m
+username:  exists
+Completed 500 Internal Server Error in 18ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/reserve_controller.rb:15:in `save'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 10:24:57 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-02 10:24:58 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  Rendered reserve/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:02 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ng3zbfkeyewA+1KcojjVRpwyOTbVefZd5c2S1DPSoCE=", "username"=>"orlando", "email"=>"lizongshenglzs@gmail.com", "commit"=>"Reserve"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+username:  or email exists
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered reserve/save.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 55ms (Views: 8.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/video.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 10:25:06 -0700
