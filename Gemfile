@@ -39,6 +39,10 @@ end
 
 group :test do
   gem "factory_girl_rails"
+  
+end
+group :development do
+  gem 'brakeman'
 end
 
 group :production do
