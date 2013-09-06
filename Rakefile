@@ -4,3 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 Youhou::Application.load_tasks
+task :default do
+    Brakeman.run :app_path => ".", :print_report => true  
+end
