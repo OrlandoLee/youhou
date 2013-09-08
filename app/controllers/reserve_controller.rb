@@ -14,7 +14,6 @@ class ReserveController < ApplicationController
     end
     
     @amount = params[:amount]
-    @price = 100
     @commit = params[:commit]
     
     if @commit == "Sell"
