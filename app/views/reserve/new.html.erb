@@ -6,10 +6,13 @@
 <%raise "error when displaying in new.html.erb"%>
 <%end%>
 
-<%= @bids[0]%>
-<%= @bids[1]%>
+<%= "bids 0 #{@bids[0]}"%>
+<%= "bids 1 #{@bids[1]}"%>
 
-<%= @amount.to_f - @bids[0]["amount"]%>
+<%= "asks 0 #{@asks[0]}"%>
+<%= "asks 1 #{@asks[1]}"%>
+
+
 
 
 
