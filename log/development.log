@@ -7101,3 +7101,1751 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 10:22:25
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 10:22:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:02:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 41ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:02:02 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=100&commit=Buy" for 127.0.0.1 at 2013-09-08 11:02:05 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"100", "commit"=>"Buy"}
+Completed 500 Internal Server Error in 252ms
+
+ArgumentError (comparison of String with 0 failed):
+  app/controllers/reserve_controller.rb:40:in `>'
+  app/controllers/reserve_controller.rb:40:in `new'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=100&commit=Buy" for 127.0.0.1 at 2013-09-08 11:03:55 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"100", "commit"=>"Buy"}
+Completed 500 Internal Server Error in 470ms
+
+NoMethodError (undefined method `>' for nil:NilClass):
+  app/controllers/reserve_controller.rb:40:in `new'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:04:13 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:04:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:04:13 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:04:13 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=100&commit=Buy" for 127.0.0.1 at 2013-09-08 11:04:15 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"100", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 141ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:04:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:04:15 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:04:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:06:35 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:06:36 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:36 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=0.001&commit=Buy" for 127.0.0.1 at 2013-09-08 11:06:39 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"0.001", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 479ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:06:40 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=0.01&commit=Buy" for 127.0.0.1 at 2013-09-08 11:06:45 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"0.01", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 296ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:46 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:06:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:06:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:07:13 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:07:13 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:07:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:07:13 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=0.01&commit=Buy" for 127.0.0.1 at 2013-09-08 11:07:22 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"0.01", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 498ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:07:22 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:07:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:07:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:08:22 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:08:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:08:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:08:22 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=0.01&commit=Buy" for 127.0.0.1 at 2013-09-08 11:08:26 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"0.01", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 521ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:08:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:08:26 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:08:26 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:09:55 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 227ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:09:55 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:09:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:09:55 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:10:58 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 503ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:10:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:10:59 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:10:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:12:48 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:48 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:12:48 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:12:51 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 515ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:52 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:12:52 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:12:58 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 156ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:12:58 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:12:58 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:13:36 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 537ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:13:37 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:13:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:13:37 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:14:54 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 520ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:14:55 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:14:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:14:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:14:57 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:14:57 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:14:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:14:57 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:15:00 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 161ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:00 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:15:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:15:06 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:15:06 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:15:09 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 593ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:10 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:15:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:15:35 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:35 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:15:35 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:15:39 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 506ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:15:39 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:15:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:17:45 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:17:46 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:17:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:17:46 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:17:48 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 529ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:17:48 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:17:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:17:48 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:18:12 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 171ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:18:12 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:18:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:18:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:24:41 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:24:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:24:41 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:24:41 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:24:43 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 152ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:24:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:24:44 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:24:44 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=0&commit=Buy" for 127.0.0.1 at 2013-09-08 11:25:32 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"0", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 172ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:25:33 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:25:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:25:33 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:25:47 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 784ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:25:48 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:25:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:25:48 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:26:05 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 508ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:26:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:06 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:26:11 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 201ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:11 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:26:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:26:16 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:26:16 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:16 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:26:18 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 152ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:26:18 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:26:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:27:29 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:27:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:27:29 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:27:29 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:27:42 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 146ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:27:42 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:27:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:27:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:28:13 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:28:13 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:28:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:28:13 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:28:15 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 525ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:28:16 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:28:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:28:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:30:00 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:30:00 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:30:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:30:00 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:30:10 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 149ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:30:10 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:30:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:30:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:33:37 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:33:39 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+Completed 500 Internal Server Error in 476ms
+
+NoMethodError (undefined method `<' for nil:NilClass):
+  app/controllers/reserve_controller.rb:45:in `new'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:34:07 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 501ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:34:08 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:34:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:34:08 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:36:19 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 162ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:36:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:36:19 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:36:19 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:36:35 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 492ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:36:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:36:36 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:36:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:37:37 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:37:39 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 498ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:39 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:37:39 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:37:49 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 139ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:37:50 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:37:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:38:15 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:15 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:38:15 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:38:18 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 153ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:38:18 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:38:23 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 141ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:23 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:38:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:38:47 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:38:47 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:38:47 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:38:49 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 153ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <%if @commit == "Buy"%>
+    2: <%= "The USD Price for buying #{@amount} bitcoins is #{@result} USD"%>
+    3: <%=  @buys[0]["amount"]%>
+    4: <%elsif @commit == "Sell"%>
+    5: <%= "The USD Price for selling #{@amount} bitcoins is #{@result} USD"%>
+    6: <%=  @asks[0]["amount"]%>
+  app/views/reserve/new.html.erb:3:in `_app_views_reserve_new_html_erb__3806232604588518041_70204322270040'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:08 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:39:10 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 176ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:39:10 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:10 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:39:17 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 517ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:18 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:39:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:39:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:06 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:41:08 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 153ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:08 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:08 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:41:43 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 170ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:43 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:41:51 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:51 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:51 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:41:53 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (53.3ms)
+Completed 200 OK in 196ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:53 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:41:57 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:57 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:57 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:41:58 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 490ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:59 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:41:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:41:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:42:26 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:42:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:42:26 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:42:26 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:42:28 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 596ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:42:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:42:28 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:42:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:43:26 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:43:26 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:43:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:43:26 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:43:31 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 775ms (Views: 244.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:43:32 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:43:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:43:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:44:06 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:06 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:44:06 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:44:10 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 498ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:10 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:44:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:44:54 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:44:57 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 505ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:57 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:44:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:44:57 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:45:17 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+Completed 500 Internal Server Error in 127ms
+
+RuntimeError (amount is too large):
+  app/controllers/reserve_controller.rb:37:in `new'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:46:01 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 477ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:46:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:46:02 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:46:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:47:16 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:47:16 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:47:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:47:16 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:47:17 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 679ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:47:18 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:47:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:47:18 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:49:47 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:49:48 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:49:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:49:48 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:50:01 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 212ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:01 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:50:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:50:53 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:50:53 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:50:54 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:50:56 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 258ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:50:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:50:56 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:51:03 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (54.9ms)
+Completed 200 OK in 195ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:51:03 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:51:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:51:03 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:52:13 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 142ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:13 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:52:13 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:52:17 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:17 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:52:17 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:52:19 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 137ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:19 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:52:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:52:25 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:25 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:52:25 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:52:27 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 163ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:27 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:52:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:52:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:55:55 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:55:55 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:55:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:55:55 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:55:57 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 512ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:55:57 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:55:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:55:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:56:45 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:56:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:56:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:56:45 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:56:48 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 560ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:56:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:56:48 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:56:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:57:00 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:00 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:00 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=2&commit=Sell" for 127.0.0.1 at 2013-09-08 11:57:02 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"2", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 733ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:03 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:57:13 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:13 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:13 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=2&commit=Buy" for 127.0.0.1 at 2013-09-08 11:57:15 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"2", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 150ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:15 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:57:44 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:57:44 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:45 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:57:46 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 674ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:47 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:47 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:57:51 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 163ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:52 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:57:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:57:52 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:58:08 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 172ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:09 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:58:23 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:23 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:23 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Buy" for 127.0.0.1 at 2013-09-08 11:58:25 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Buy"}
+  Rendered reserve/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 153ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:25 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:25 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:58:29 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (53.3ms)
+Completed 200 OK in 162ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:29 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-08 11:58:36 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:36 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:36 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&amount=1&commit=Sell" for 127.0.0.1 at 2013-09-08 11:58:38 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "amount"=>"1", "commit"=>"Sell"}
+  Rendered reserve/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 515ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 11:58:39 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-08 11:58:39 -0700
