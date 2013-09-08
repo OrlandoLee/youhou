@@ -1,9 +1,7 @@
 <%if @commit == "Buy"%>
-<%= "The USD Price for buying #{@amount} bitcoins is #{@price} USD"%>
+<%= "The USD Price for buying #{@amount} bitcoins is #{@result} USD"%>
 <%elsif @commit == "Sell"%>
-<%= "The USD Price for selling #{@amount} bitcoins is #{@price} USD"%>
+<%= "The USD Price for selling #{@amount} bitcoins is #{@result} USD"%>
 <%else%>
 <%raise "error when displaying in new.html.erb"%>
 <%end%>
-
-<%= @bids%>
