@@ -51,7 +51,7 @@ test:
   database: youhou_test
   pool: 5
   #username should be changed to your user name
-  username: postgres
+  username: postgres   #orlandolee when test locally change username to local username
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
