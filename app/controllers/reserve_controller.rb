@@ -32,6 +32,7 @@ class ReserveController < ApplicationController
           end
           if sell_amount_left == 0
             @result = @result - (@result * 0.01)
+            @result = @result.round(5)
           else
             raise "amount is too large"
           end          
@@ -54,6 +55,7 @@ class ReserveController < ApplicationController
 
           if buy_amount_left == 0
             @result = @result + (@result * 0.01)
+            @result = @result.round(5)
           else
             raise "amount is too large"
           end
