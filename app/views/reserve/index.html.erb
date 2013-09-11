@@ -1,13 +1,14 @@
-<h1>How much do you want to buy using bitcoins</h1>
+<h1>Reserve your username</h1>
 <%= form_tag("/reserve", method: "get") do %>
-  <%= text_field_tag(:amount) %>
-  <%= submit_tag "Buy" %>
+  <%= label_tag("youhou.co/") %>
+  <%= text_field_tag(:username) %>
+  <%= submit_tag "Reserve" %>
 <% end %>
 
-<h1>How much do you want to sell using bitcoins</h1>
-<%= form_tag("/reserve", method: "get") do %>
-    <%= text_field_tag(:amount) %>
-    <%= submit_tag "Sell" %>
-<% end %>
-
-
+<script>
+  $(function() {
+        var BV = new $.BigVideo();
+  BV.init();
+  BV.show("<%= request.protocol + request.host_with_port + asset_path('main-video.mp4') %>",{ambient:true});
+  });
+</script>

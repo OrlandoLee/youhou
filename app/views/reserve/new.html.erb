@@ -1,20 +1,10 @@
-<%if @commit == "Buy"%>
-<%= "The USD Price for buying #{@amount} bitcoins is #{@result} USD"%>
-<%elsif @commit == "Sell"%>
-<%= "The USD Price for selling #{@amount} bitcoins is #{@result} USD"%>
-<%else%>
-<%raise "error when displaying in new.html.erb"%>
-<%end%>
-
-<br>
-<%= "bids 0 #{@bids[0]}"%>
-<%= "bids 1 #{@bids[1]}"%>
-
-<%= "asks 0 #{@asks[0]}"%>
-<%= "asks 1 #{@asks[1]}"%>
-
-
-
-
-
+<%= form_tag("/reserve", method: "post") do %>
+  <%= label_tag("youhou.co/") %>
+  <%= text_field_tag(:username,@username) %>
+  <br>
+  
+  <%= email_field_tag "email","Your email address"%>
+  <br>
+  <%= submit_tag "Reserve" %>
+<% end %>
 

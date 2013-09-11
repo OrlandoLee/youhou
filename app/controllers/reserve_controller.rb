@@ -1,67 +1,24 @@
 class ReserveController < ApplicationController
-  require 'net/http'
-  require 'json'
   def index
   end
-  def new     
-    @orderbook = Net::HTTP.get(URI.parse("http://data.mtgox.com/api/1/BTCUSD/depth/fetch"))
-    @orderbook_json = JSON.parse(@orderbook)
-    if @orderbook_json["result"] == "success"
-      @asks = JSON.parse(@orderbook)["return"]["asks"]
-      @bids = JSON.parse(@orderbook)["return"]["bids"].reverse
-    else
-      raise "can not get data from url"
-    end
-    
-    @amount = params[:amount]
-    @commit = params[:commit]
-    if @commit == "Sell"
-          index = 0
-          size_of_bids = @bids.size
-          sell_amount_left = @amount.to_f
-          @result = 0.0
-          while ((sell_amount_left > 0) && (index < size_of_bids)) do
-            if (sell_amount_left >= @bids[index]["amount"])
-              sell_amount_left = sell_amount_left - @bids[index]["amount"]
-              @result = @result + (@bids[index]["price"]*@bids[index]["amount"])
-              index = index +1
-            else
-               @result = @result + (@bids[index]["price"]*sell_amount_left)
-               sell_amount_left = 0
-            end
-          end
-          if sell_amount_left == 0
-            @result = @result - (@result * 0.01)
-            @result = @result.round(5)
-          else
-            raise "amount is too large"
-          end          
-    elsif @commit == "Buy"
-          index = 0
-          size_of_asks = @asks.size
-          buy_amount_left = @amount.to_f
-          @result = 0.0
-
-          while ((buy_amount_left > 0) && (index < size_of_asks))
-                  if (buy_amount_left >= @asks[index]["amount"])
-                    buy_amount_left = buy_amount_left.to_f - @asks[index]["amount"].to_f
-                    @result = @result + (@asks[index]["price"].to_f*@asks[index]["amount"].to_f)
-                    index = index +1
-                  else
-                     @result = @result + (@asks[index]["price"].to_f*buy_amount_left.to_f)
-                     buy_amount_left = 0
-                  end
-          end
-
-          if buy_amount_left == 0
-            @result = @result + (@result * 0.01)
-            @result = @result.round(5)
-          else
-            raise "amount is too large"
-          end
-        else
-          raise 'wrong option'
-        end
+  def new
+    @username = params[:username]
     #add judgement
+  end
+  def save
+    @user = User.new
+    if !User.find_by_username(params[:username]) && !User.find_by_email(params[:email]) #not safe
+     @user.username = params[:username]
+     @user.email = params[:email]
+     if @user.save
+       UserMailer.signup_confirmation(@user).deliver
+     else
+      #raise 'can not send email'
+       logger.info("can not send email for #{@user.username}")
+     end
+    else
+      logger.info("username: #{@user.username} or email exists")
+      #raise 'username or email exists'
+    end
   end
 end
