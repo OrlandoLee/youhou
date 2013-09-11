@@ -1,9 +1,14 @@
+<nav id="next-btn">
 <h1>Reserve your username</h1>
+</nav>
+
 <%= form_tag("/reserve", method: "get") do %>
   <%= label_tag("youhou.co/") %>
   <%= text_field_tag(:username) %>
   <%= submit_tag "Reserve" %>
 <% end %>
+
+
 
 <script>
   $(function() {
