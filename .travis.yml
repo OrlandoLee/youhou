@@ -4,4 +4,5 @@ rvm :
 before_script:
   - psql -c 'create database youhou_test;' -U postgres
 script:
+  rpsc
   bundle exec rake brakeman:run
