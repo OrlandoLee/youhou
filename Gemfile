@@ -37,13 +37,18 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test, :development do
+  gem "rspec-rails"
+end
+
 group :test do
   gem "factory_girl_rails"
   gem "brakeman"
+  gem "capybara"
 end
 
 group :production do
-  gem 'rails_12factor' #for js on heroku
+  gem 'rails_12factor' # for js on heroku
 end
 
 
