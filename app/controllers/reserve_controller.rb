@@ -1,10 +1,12 @@
 class ReserveController < ApplicationController
   def index
   end
+  
   def new
     @username = params[:username]
     #add judgement
   end
+  
   def save
     @user = User.new
     if !User.find_by_username(params[:username]) && !User.find_by_email(params[:email]) #not safe
@@ -20,5 +22,8 @@ class ReserveController < ApplicationController
       logger.info("username: #{@user.username} or email exists")
       #raise 'username or email exists'
     end
+  end
+  
+  def canva
   end
 end

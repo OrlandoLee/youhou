@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://www.canva.com/ -->
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Canva – Amazingly simple graphic design</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1">
+		<script type="text/javascript" async="" src="./Canva – Amazingly simple graphic design_files/ga.js"></script><script type="text/javascript" async="" src="./Canva – Amazingly simple graphic design_files/mixpanel-2.2.min.js"></script>
+		<script type="text/javascript">
+			var NREUMQ = NREUMQ || [];
+			NREUMQ.push(["mark", "firstbyte", new Date().getTime()]);
+		</script>
+		<link href="https://di8vc3anm8wl1.cloudfront.net/static/images/favicon.79d0be9.ico" rel="shortcut icon">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://www.canva.com/static/css/xFMdBLq6YU2_MubOareNmw.css" rel="stylesheet">
+		<link href="https://www.canva.com/static/css/emOOX8gah1lniLfAFr9Pxg.css" rel="stylesheet">
+		<link href="https://www.canva.com/static/css/UvzCuZIsYyOUvdCRbHLImw.css" rel="stylesheet">
+		<link href="https://www.canva.com/static/css/z1DFQKBUpryl7uYEiihgBQ.css" rel="stylesheet">
+		<link href="https://www.canva.com/static/fonts/fonts.css" rel="stylesheet">
+		<script src=<%= request.protocol + request.host_with_port + asset_path('jquery-1.8.3.min.e128811.js')%>></script>
+		<script src=<%= request.protocol + request.host_with_port + asset_path('jquery.easing-1.3.min.a5cbacf.js')%>></script>
+		<script src=<%= request.protocol + request.host_with_port + asset_path('mixpanel.min.39fc6e8.js')%>></script>
+		<script src=<%= request.protocol + request.host_with_port + asset_path('vFX4fOJujEGQue0oxfvaKA.f5384bc.js')%>></script>
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37190734-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+			window['_analyticsToken'] = '4bed155df3621b1f2e74f0be03f7a25b';
+			window['_analyticsEnabled'] = true;
+			/* ]]> */
+		</script>
+	</head>
+	<body>
+		<span id="screenIsSmall"></span>
+		<header class="content lightBG">
+			<div class="inner">
+				<p id="logo">
+					<!--<a href="./Canva – Amazingly simple graphic design_files/Canva – Amazingly simple graphic design.htm" title="Youhou (beta edition)">Youhou</a>-->
+					<a href="#" title="Youhou (beta edition)">Youhou</a>
+				</p>
+				<menu>
+					<!--
+					<li>
+					<a href="https://www.canva.com/designers">Designers</a>
+					</li>
+					-->
+					<li>
+						<a href="#">Log in</a>
+					</li>
+					<li id="miniGetStarted" style="margin-right: 0px; opacity: 1;">
+						<a href="#">Sign up</a>
+					</li>
+				</menu>
+			</div>
+		</header>
+		<section id="hero" style="height: 909px;">
+			<div class="montage">
+				<img src="./Canva – Amazingly simple graphic design_files/hero_video.jpg"><img src="./Canva – Amazingly simple graphic design_files/hero_video01.jpg">
+			</div>
+			<!--
+			<video autoplay="1" loop="1" poster="https://di8vc3anm8wl1.cloudfront.net/images/home/hero_video.jpg">
+			<source src="https://di8vc3anm8wl1.cloudfront.net/homePage/hero_video_960x540.mp4" type="video/mp4">
+			<source src="https://di8vc3anm8wl1.cloudfront.net/homePage/hero_video_960x540.webm" type="video/webm">
+			<img src="./Canva – Amazingly simple graphic design_files/hero_video.jpg" alt="Frame from hero video">
+			</video>
+			
+			
+				<script>
+				$(function() {
+					var BV = new $.BigVideo();
+					BV.init();
+					BV.show("<%= request.protocol + request.host_with_port + asset_path('main-video.mp4') %>
+						",{ambient:true});
+				});
+				</script>
+			-->
+			<div class="amazing" style="opacity: 1;">
+				<p>
+					<h1>Amazingly simple</h1>
+					<h1>ad share</h1>
+				</p>
+			</div>
+			<!--<a id="learnMore" href="https://www.canva.com/#content1" style="opacity: 1;"><span></span>Scroll down to learn more</a>-->
+			<a id="learnMore" href="#content7" style="opacity: 1;"><span></span>Scroll down to learn more</a>
+			<section id="sidekick">
+				<p>
+					Reserve your username
+				</p>
+				<!--
+				<form method="GET" action="https://www.canva.com/reserve">
+				<label for="username">canva.com/</label>
+				<input id="username" name="username" type="text" placeholder="username">
+				<input type="submit" value="Reserve">
+				</form>
+				-->
+				<%= form_tag("/reserve", method: "get") do %>
+				<%= label_tag("youhou.co/") %>
+				<%= text_field_tag(:username) %>
+				<%= submit_tag "Reserve" %>
+				<% end %>
+			</section>
+		</section>
+
+		<section id="content">
+			<!--
+			<section id="content1">
+			<h2>A simple new way to design</h2>
+			<ul id="documentTypes">
+			<li id="documentTypeFlyer" class="">
+			<figure>
+			<span class="image"></span><span class="text text1"></span><span class="text text2"></span><span class="text text3"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_flyer.jpg">
+			</figure>
+			<span>Flyers</span>
+			</li>
+			<li id="documentTypePresentation" class="">
+			<figure>
+			<span class="image"></span><span class="text text1"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_presentation.jpg">
+			</figure>
+			<span>Presentations</span>
+			</li>
+			<li id="documentTypeFacebookCover" class="">
+			<figure>
+			<span class="bg"></span><span class="bg bg2"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_facebook.jpg">
+			</figure>
+			<span>Facebook covers</span>
+			</li>
+			<li id="documentTypeBlogGraphic" class="">
+			<figure>
+			<span class="image image1"></span><span class="image image2"></span><span class="text text1"></span><span class="text text2"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_blog.jpg">
+			</figure>
+			<span>Blog graphics</span>
+			</li>
+			<li id="documentTypeBusinessCard" class="">
+			<figure>
+			<span class="image"></span><span class="text text1"></span><span class="text text2"></span><span class="text text3"></span><span class="text text4"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_business_card.jpg">
+			</figure>
+			<span>Business cards</span>
+			</li>
+			<li id="documentTypePoster" class="">
+			<figure>
+			<span class="image"></span><span class="text text1"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_poster.jpg">
+			</figure>
+			<span>Posters</span>
+			</li>
+			<li id="documentTypeInvitation" class="on">
+			<figure>
+			<span class="image"></span><span class="text text1"></span><span class="text text2"></span><span class="text text3"></span><span class="text text4"></span><span class="text text5"></span><span class="text text6"></span><img src="./Canva – Amazingly simple graphic design_files/document_type_invitation.jpg">
+			</figure>
+			<span>Invitations</span>
+			</li>
+			</ul>
+			<div class="text">
+			<p>
+			Design shouldn't be hard but somewhere along the way we became bogged down with expensive, complicated software that put design out of reach for most people. Canva is here to change that, with a tool that makes design simple for everyone.
+			</p>
+			<p>
+			Canva gives you everything you need to easily turn ideas into stunning designs. Create designs for Web or print; website banners, presentations, Facebook covers, flyers, posters, invitations and so much more.
+			</p>
+			</div>
+			</section>
+			<section id="content2">
+			<div class="feature">
+			<div id="feature2SearchBox" class="noCaret" style="opacity: 0; margin-top: 65px;">
+			<span>monkeys</span>
+			</div>
+			<ul class="laidOut" style="">
+			<li class="show" style="width: 105px; left: 0px; top: 0px;"><img class="image1" src="./Canva – Amazingly simple graphic design_files/searchresult1.png" alt="Canva design" style="height: 108.88461538461537px;">
+			</li>
+			<li class="show" style="width: 105px; left: 105px; top: 0px; display: list-item;"><img class="image2" src="./Canva – Amazingly simple graphic design_files/searchresult2.png" alt="Canva design" style="height: 100.84615384615384px;">
+			</li>
+			<li class="show" style="width: 105px; left: 210px; top: 0px;"><img class="image3" src="./Canva – Amazingly simple graphic design_files/searchresult3.png" alt="Canva design" style="height: 108.15384615384615px;">
+			</li>
+			<li class="show" style="width: 105px; left: 315px; top: 0px;"><img class="image4" src="./Canva – Amazingly simple graphic design_files/searchresult4.png" alt="Canva design" style="height: 57px;">
+			</li>
+			<li class="show" style="width: 105px; left: 315px; top: 67px;"><img class="image5" src="./Canva – Amazingly simple graphic design_files/searchresult5.png" alt="Canva design" style="height: 84.03846153846153px;">
+			</li>
+			<li class="show" style="width: 105px; left: 105px; top: 110.84615384615384px;"><img class="image6" src="./Canva – Amazingly simple graphic design_files/searchresult6.png" alt="Canva design" style="height: 80.38461538461539px;">
+			</li>
+			<li class="show" style="width: 105px; left: 210px; top: 118.15384615384615px;"><img class="image7" src="./Canva – Amazingly simple graphic design_files/searchresult7.png" alt="Canva design" style="height: 227.7710843373494px;">
+			</li>
+			<li class="show" style="width: 105px; left: 0px; top: 118.88461538461537px;"><img class="image8" src="./Canva – Amazingly simple graphic design_files/searchresult8.png" alt="Canva design" style="height: 148.4375px;">
+			</li>
+			<li class="show" style="width: 105px; left: 315px; top: 161.03846153846155px;"><img class="image9" src="./Canva – Amazingly simple graphic design_files/searchresult9.png" alt="Canva design" style="height: 141.015625px;">
+			</li>
+			<li class="show" style="width: 105px; left: 105px; top: 201.23076923076923px;"><img class="image10" src="./Canva – Amazingly simple graphic design_files/searchresult10.png" alt="Canva design" style="height: 149.28571428571428px;">
+			</li>
+			</ul>
+			<div id="feature2Hand" class="" style=""></div>
+			<div id="feature2Design" style="">
+			<div id="feature2DesignCircle"></div>
+			<div id="feature2DesignText">
+			It's time for us to go ape!
+			</div>
+			</div>
+			</div>
+			<div class="text">
+			<h2>Search and drag simplicity</h2>
+			<p>
+			Search and drag to create beautiful designs without ever leaving the Web. Canva takes care of the boring bits so you can spend more time creating.
+			</p>
+			<p>
+			Start with a custom layout or a blank page. With all the tools in one place, there's nothing holding you back.
+			</p>
+			</div>
+			</section>
+			<section id="content4">
+			<div class="feature">
+			<div class="sample one">
+			<span class="ribbon">Free</span><img src="./Canva – Amazingly simple graphic design_files/stock1.jpg" width="90" height="90">
+			</div>
+			<div class="sample two">
+			<span class="ribbon">Free</span><img src="./Canva – Amazingly simple graphic design_files/stock2.jpg" width="90" height="90">
+			</div>
+			<div class="sample three">
+			<span class="ribbon">Free</span><img src="./Canva – Amazingly simple graphic design_files/stock3.jpg" width="90" height="90">
+			</div>
+			<div class="sample four">
+			<span class="ribbon paid">$1.00</span><img src="./Canva – Amazingly simple graphic design_files/stock4.jpg" width="90" height="90">
+			</div>
+			</div>
+			<div class="text">
+			<h2>It’s online and free to use </h2>
+			<p>
+			Simply search for the best graphics, photos, and fonts, or upload your own, then use Canva’s drag and drop tool to create a design.
+			</p>
+			<p>
+			Design with hundreds of free elements and fonts, or choose from our library of more than 1 million premium images for $1.
+			</p>
+			</div>
+			</section>
+
+			<section id="content3">
+			<h2>Choose from one million</h2>
+			<div id="imagesWrapper" style="padding-left: 529.5px;">
+			<div id="imagesFeature">
+			<div id="sprite-0" class="right block" data-margin-left="748" data-margin-top="10" style="left: 621.1684051914161px; top: -230.93091504223904px;"></div>
+			<div id="sprite-1" class="right block" data-margin-left="765" data-margin-top="14" style="left: 782.0003319747824px; top: -261.68164631709334px;"></div>
+			<div id="sprite-2" class="right block" data-margin-left="476" data-margin-top="14" style="left: 875.735051901726px; top: -299.0647386481067px;"></div>
+			<div id="sprite-3" class="right block" data-margin-left="510" data-margin-top="15" style="left: 544.812919087804px; top: -333.8780509549612px;"></div>
+			<div id="sprite-4" class="right" data-margin-left="493" data-margin-top="13" style="left: 492.4447108699067px; top: -376.6495035022658px;"></div>
+			<div id="sprite-5" class="right" data-margin-left="506" data-margin-top="27" style="left: 776.727036465085px; top: -200.30811884557406px;"></div>
+			<div id="sprite-6" class="right block" data-margin-left="327" data-margin-top="26" style="left: 818.784172316376px; top: -236.00006306130794px;"></div>
+			<div id="sprite-7" class="right block" data-margin-left="672" data-margin-top="25" style="left: 928.6551145684736px; top: -272.3218390179477px;"></div>
+			<div id="sprite-8" class="right" data-margin-left="657" data-margin-top="28" style="left: 716.2254235454972px; top: -297.4626461780865px;"></div>
+			<div id="sprite-9" class="left" data-margin-left="15" data-margin-top="26" style="left: -635.2836060383797px; top: -337.14294723043986px;"></div>
+			<div id="sprite-10" class="right block" data-margin-left="643" data-margin-top="28" style="left: 800.5913507011859px; top: -198.30843078539104px;"></div>
+			<div id="sprite-11" class="right block" data-margin-left="749" data-margin-top="27" style="left: 611.6652246465816px; top: -233.69280531983637px;"></div>
+			<div id="sprite-12" class="right block" data-margin-left="628" data-margin-top="29" style="left: 896.1161939879321px; top: -261.71560554361986px;"></div>
+			<div id="sprite-13" class="left block" data-margin-left="89" data-margin-top="28" style="left: -588.201604015536px; top: -297.4626461780865px;"></div>
+			<div id="sprite-14" class="left block" data-margin-left="345" data-margin-top="30" style="left: -600.5171414924889px; top: -323.73823160424274px;"></div>
+			<div id="sprite-15" class="left block" data-margin-left="208" data-margin-top="25" style="left: -452.2296928884936px; top: -204.24137926346074px;"></div>
+			<div id="sprite-16" class="right block" data-margin-left="611" data-margin-top="27" style="left: 700.0493862940781px; top: -233.69280531983637px;"></div>
+			<div id="sprite-17" class="right" data-margin-left="780" data-margin-top="25" style="left: 570.3278929421766px; top: -272.3218390179477px;"></div>
+			<div id="sprite-18" class="right block" data-margin-left="596" data-margin-top="27" style="left: 549.6207138211868px; top: -300.4621782683611px;"></div>
+			<div id="sprite-19" class="left block" data-margin-left="101" data-margin-top="25" style="left: -623.3280607711466px; top: -340.4022987724346px;"></div>
+			<div id="sprite-20" class="left block" data-margin-left="449" data-margin-top="27" style="left: -608.7385967774592px; top: -200.30811884557406px;"></div>
+			<div id="sprite-21" class="right" data-margin-left="539" data-margin-top="27" style="left: 1070.5604745249739px; top: -233.69280531983637px;"></div>
+			<div id="sprite-22" class="right" data-margin-left="717" data-margin-top="30" style="left: 809.0799810527545px; top: -258.9905852833942px;"></div>
+			<div id="sprite-23" class="left" data-margin-left="522" data-margin-top="27" style="left: -916.0345230353113px; top: -300.4621782683611px;"></div>
+			<div id="sprite-24" class="right block" data-margin-left="764" data-margin-top="29" style="left: 563.120129865011px; top: -327.1445069295248px;"></div>
+			<div id="sprite-25" class="left block" data-margin-left="462" data-margin-top="26" style="left: -927.9553952918928px; top: -202.28576833826395px;"></div>
+			<div id="sprite-26" class="left block" data-margin-left="118" data-margin-top="29" style="left: -520.3063501920641px; top: -229.00115485066738px;"></div>
+			<div id="sprite-27" class="right block" data-margin-left="735" data-margin-top="26" style="left: 831.5595281964897px; top: -269.7143577843519px;"></div>
+			<div id="sprite-28" class="left block" data-margin-left="223" data-margin-top="25" style="left: -453.95795923074263px; top: -306.36206889519116px;"></div>
+			<div id="sprite-29" class="left" data-margin-left="491" data-margin-top="25" style="left: -924.0464043224762px; top: -340.4022987724346px;"></div>
+			<div id="sprite-30" class="left block" data-margin-left="29" data-margin-top="27" style="left: -732.2422928544245px; top: -200.30811884557406px;"></div>
+			<div id="sprite-31" class="right block" data-margin-left="479" data-margin-top="28" style="left: 800.0013791826146px; top: -231.3598359162895px;"></div>
+			<div id="sprite-32" class="right" data-margin-left="312" data-margin-top="25" style="left: 1010.4597214349271px; top: -272.3218390179477px;"></div>
+			<div id="sprite-33" class="left block" data-margin-left="116" data-margin-top="44" style="left: -615.460404745121px; top: -244.97426496509905px;"></div>
+			<div id="sprite-34" class="right block" data-margin-left="719" data-margin-top="42" style="left: 1050.4520483709946px; top: -279.9979139267532px;"></div>
+			<div id="sprite-35" class="right block" data-margin-left="448" data-margin-top="45" style="left: 980.773245067691px; top: -160.94183293583345px;"></div>
+			<div id="sprite-36" class="left" data-margin-left="101" data-margin-top="44" style="left: -705.4789904879068px; top: -190.53553941729925px;"></div>
+			<div id="sprite-37" class="left" data-margin-left="435" data-margin-top="42" style="left: -674.6805839130778px; top: -223.99833114140256px;"></div>
+			<div id="sprite-38" class="left block" data-margin-left="15" data-margin-top="43" style="left: -408.37042520413956px; top: -248.50272267520828px;"></div>
+			<div id="sprite-39" class="right" data-margin-left="596" data-margin-top="41" style="left: 1049.132453827467px; top: -283.8449606018975px;"></div>
+			<div id="sprite-40" class="left block" data-margin-left="195" data-margin-top="40" style="left: -838.7133496957215px; top: -172.593165798732px;"></div>
+			<div id="sprite-41" class="left block" data-margin-left="462" data-margin-top="43" style="left: -1154.2917691345533px; top: -193.27989541405088px;"></div>
+			<div id="sprite-42" class="left block" data-margin-left="209" data-margin-top="44" style="left: -956.8642262288716px; top: -217.75490219119914px;"></div>
+			<div id="sprite-43" class="right block" data-margin-left="341" data-margin-top="42" style="left: 831.6899895169976px; top: -251.9981225340779px;"></div>
+			<div id="sprite-44" class="left block" data-margin-left="87" data-margin-top="41" style="left: -504.0269650768379px; top: -283.8449606018975px;"></div>
+			<div id="sprite-45" class="left block" data-margin-left="327" data-margin-top="41" style="left: -1107.1640190174267px; top: -170.3069763611385px;"></div>
+			<div id="sprite-46" class="left" data-margin-left="27" data-margin-top="43" style="left: -839.9061095365528px; top: -193.27989541405088px;"></div>
+			<div id="sprite-47" class="right" data-margin-left="701" data-margin-top="40" style="left: 893.0744001389627px; top: -230.124221064976px;"></div>
+			<div id="sprite-48" class="left" data-margin-left="223" data-margin-top="43" style="left: -813.4315276756686px; top: -248.50272267520828px;"></div>
+			<div id="sprite-49" class="left" data-margin-left="311" data-margin-top="40" style="left: -601.8544870501705px; top: -287.65527633121997px;"></div>
+			<div id="sprite-50" class="right block" data-margin-left="612" data-margin-top="42" style="left: 1031.400697900226px; top: -167.99874835605192px;"></div>
+			<div id="sprite-51" class="right block" data-margin-left="716" data-margin-top="55" style="left: 724.5212380208447px; top: -158.65065375606162px;"></div>
+			<div id="sprite-52" class="left block" data-margin-left="342" data-margin-top="58" style="left: -881.778318024116px; top: -170.75980679413726px;"></div>
+			<div id="sprite-53" class="left block" data-margin-left="195" data-margin-top="59" style="left: -1209.7750707038656px; top: -188.0804571647001px;"></div>
+			<div id="sprite-54" class="left block" data-margin-left="360" data-margin-top="55" style="left: -802.5354889742358px; top: -226.64379108008805px;"></div>
+			<div id="sprite-55" class="right block" data-margin-left="596" data-margin-top="60" style="left: 1008.0122560620516px; top: -122.68204922317078px;"></div>
+			<div id="sprite-56" class="right" data-margin-left="701" data-margin-top="56" style="left: 965.4115470714596px; top: -155.5977578144064px;"></div>
+			<div id="sprite-57" class="left block" data-margin-left="210" data-margin-top="58" style="left: -1142.2534194990221px; top: -170.75980679413726px;"></div>
+			<div id="sprite-58" class="left block" data-margin-left="11" data-margin-top="60" style="left: -511.8636845927567px; top: -184.02307383475616px;"></div>
+			<div id="sprite-59" class="left block" data-margin-left="29" data-margin-top="56" style="left: -923.2157145694667px; top: -222.2825111634377px;"></div>
+			<div id="sprite-60" class="left block" data-margin-left="89" data-margin-top="58" style="left: -1090.6011330875676px; top: -128.06985509560295px;"></div>
+			<div id="sprite-61" class="left block" data-margin-left="329" data-margin-top="56" style="left: -1351.72166877074px; top: -155.5977578144064px;"></div>
+			<div id="sprite-62" class="right" data-margin-left="449" data-margin-top="59" style="left: 899.9002522250499px; top: -167.18262859084456px;"></div>
+			<div id="sprite-63" class="right block" data-margin-left="611" data-margin-top="55" style="left: 731.7447797757884px; top: -203.97941197207925px;"></div>
+			<div id="sprite-64" class="left block" data-margin-left="117" data-margin-top="57" style="left: -1167.912477728455px; top: -217.88450030096558px;"></div>
+			<div id="sprite-65" class="right" data-margin-left="433" data-margin-top="58" style="left: 1446.2640195207257px; top: -128.06985509560295px;"></div>
+			<div id="sprite-66" class="left" data-margin-left="221" data-margin-top="56" style="left: -870.1071667652342px; top: -155.5977578144064px;"></div>
+			<div id="sprite-67" class="right" data-margin-left="311" data-margin-top="56" style="left: 1519.0499700717467px; top: -177.82600893075016px;"></div>
+			<div id="sprite-68" class="left" data-margin-left="102" data-margin-top="55" style="left: -1056.804158748251px; top: -203.97941197207925px;"></div>
+			<div id="sprite-69" class="left block" data-margin-left="131" data-margin-top="60" style="left: -730.3785908808927px; top: -204.47008203861793px;"></div>
+			<div id="sprite-70" class="left" data-margin-left="446" data-margin-top="71" style="left: -1371.2983752152854px; top: -91.47335934903637px;"></div>
+			<div id="sprite-71" class="right block" data-margin-left="749" data-margin-top="73" style="left: 1146.084262590812px; top: -99.76464250874713px;"></div>
+			<div id="sprite-72" class="right block" data-margin-left="614" data-margin-top="75" style="left: 1231.1350550427317px; top: -105.95145043274366px;"></div>
+			<div id="sprite-73" class="right block" data-margin-left="719" data-margin-top="70" style="left: 1307.5485937778283px; top: -141.63105871713486px;"></div>
+			<div id="sprite-74" class="left" data-margin-left="296" data-margin-top="72" style="left: -1384.627639161031px; top: -147.50662386526062px;"></div>
+			<div id="sprite-75" class="left block" data-margin-left="87" data-margin-top="75" style="left: -1373.7311691621592px; top: -79.46358782455773px;"></div>
+			<div id="sprite-76" class="right block" data-margin-left="600" data-margin-top="69" style="left: 1417.3569071499048px; top: -113.57034932403653px;"></div>
+			<div id="sprite-77" class="left" data-margin-left="103" data-margin-top="72" style="left: -623.2449526035862px; top: -118.0052990922085px;"></div>
+			<div id="sprite-78" class="left" data-margin-left="118" data-margin-top="72" style="left: -863.7671246644226px; top: -132.75596147873458px;"></div>
+			<div id="sprite-79" class="left" data-margin-left="221" data-margin-top="74" style="left: -986.5985876609623px; top: -137.4984809281951px;"></div>
+			<div id="sprite-80" class="left block" data-margin-left="311" data-margin-top="72" style="left: -1001.9048586182813px; top: -88.50397431915638px;"></div>
+			<div id="sprite-81" class="left block" data-margin-left="15" data-margin-top="71" style="left: -1119.4766606377873px; top: -106.71891924054243px;"></div>
+			<div id="sprite-82" class="left" data-margin-left="133" data-margin-top="72" style="left: -1224.550382755677px; top: -118.0052990922085px;"></div>
+			<div id="sprite-83" class="left block" data-margin-left="29" data-margin-top="72" style="left: -849.9533512690366px; top: -132.75596147873458px;"></div>
+			<div id="sprite-84" class="right block" data-margin-left="735" data-margin-top="75" style="left: 1317.3559612544786px; top: -132.43931304092956px;"></div>
+			<div id="sprite-85" class="left block" data-margin-left="207" data-margin-top="73" style="left: -994.7455127126533px; top: -85.51255072178326px;"></div>
+			<div id="sprite-86" class="right block" data-margin-left="344" data-margin-top="75" style="left: 1564.412019438138px; top: -92.7075191286507px;"></div>
+			<div id="sprite-87" class="left block" data-margin-left="194" data-margin-top="69" style="left: -821.7484989767987px; top: -129.79468494175603px;"></div>
+			<div id="sprite-88" class="left block" data-margin-left="359" data-margin-top="70" style="left: -1422.1895802341307px; top: -141.63105871713486px;"></div>
+			<div id="sprite-89" class="right block" data-margin-left="701" data-margin-top="70" style="left: 780.0397190348418px; top: -157.36784301903873px;"></div>
+			<div id="sprite-90" class="right block" data-margin-left="431" data-margin-top="71" style="left: 1594.0637381107642px; top: -91.47335934903637px;"></div>
+			<div id="sprite-91" class="left" data-margin-left="179" data-margin-top="71" style="left: -1239.7376717661436px; top: -106.71891924054243px;"></div>
+			<div id="sprite-92" class="right block" data-margin-left="761" data-margin-top="87" style="left: 1140.461393308779px; top: -55.091427695710685px;"></div>
+			<div id="sprite-93" class="right" data-margin-left="716" data-margin-top="86" style="left: 1324.7082817572837px; top: -66.9278014710895px;"></div>
+			<div id="sprite-94" class="right block" data-margin-left="613" data-margin-top="89" style="left: 1259.5392180120857px; top: -57.75421330791711px;"></div>
+			<div id="sprite-95" class="left block" data-margin-left="416" data-margin-top="85" style="left: -1726.9247154206835px; top: -47.89645928884325px;"></div>
+			<div id="sprite-96" class="left block" data-margin-left="179" data-margin-top="86" style="left: -1590.1844538915611px; top: -52.05495669973627px;"></div>
+			<div id="sprite-97" class="right block" data-margin-left="371" data-margin-top="88" style="left: 1867.8376289251653px; top: -50.66209154935093px;"></div>
+			<div id="sprite-98" class="left block" data-margin-left="298" data-margin-top="89" style="left: -1742.650150948228px; top: -51.978791977125404px;"></div>
+			<div id="sprite-99" class="right block" data-margin-left="434" data-margin-top="86" style="left: 1560.786085836423px; top: -74.3642238567661px;"></div>
+			<div id="sprite-100" class="left block" data-margin-left="89" data-margin-top="88" style="left: -971.8169692523686px; top: -37.9965686620132px;"></div>
+			<div id="sprite-101" class="left" data-margin-left="359" data-margin-top="85" style="left: -1440.136602762405px; top: -55.87920250365046px;"></div>
+			<div id="sprite-102" class="left block" data-margin-left="208" data-margin-top="88" style="left: -1035.8828975874828px; top: -50.66209154935093px;"></div>
+			<div id="sprite-103" class="right block" data-margin-left="750" data-margin-top="88" style="left: 1296.6582960219625px; top: -56.994852993019805px;"></div>
+			<div id="sprite-104" class="right block" data-margin-left="600" data-margin-top="88" style="left: 1630.5229929796008px; top: -63.32761443668868px;"></div>
+			<div id="sprite-105" class="left" data-margin-left="447" data-margin-top="90" style="left: -1290.4096603900077px; top: -31.28644873999429px;"></div>
+			<div id="sprite-106" class="right" data-margin-left="630" data-margin-top="87" style="left: 923.4868200534924px; top: -48.204999233746854px;"></div>
+			<div id="sprite-107" class="right block" data-margin-left="731" data-margin-top="85" style="left: 862.1346349665534px; top: -63.86194571845767px;"></div>
+			<div id="sprite-108" class="left block" data-margin-left="105" data-margin-top="87" style="left: -1509.856121330176px; top: -61.97785615767452px;"></div>
+			<div id="sprite-109" class="right" data-margin-left="656" data-margin-top="85" style="left: 1136.5306686828076px; top: -79.82743214807209px;"></div>
+			<div id="sprite-110" class="left block" data-margin-left="26" data-margin-top="89" style="left: -889.9411922507887px; top: -34.652527984750265px;"></div>
+			<div id="sprite-111" class="right" data-margin-left="645" data-margin-top="85" style="left: 1634.8692718513596px; top: -55.87920250365046px;"></div>
+			<div id="sprite-112" class="left" data-margin-left="223" data-margin-top="89" style="left: -1566.4781190128679px; top: -46.20337064633369px;"></div>
+			<div id="sprite-113" class="left" data-margin-left="131" data-margin-top="85" style="left: -805.4851312315849px; top: -71.84468893326488px;"></div>
+			<div id="sprite-114" class="left" data-margin-left="11" data-margin-top="88" style="left: -1356.2125392630546px; top: -63.32761443668868px;"></div>
+			<div id="sprite-115" class="right block" data-margin-left="449" data-margin-top="103" style="left: 1427.6836791925462px; top: 14.478091083707309px;"></div>
+			<div id="sprite-116" class="left block" data-margin-left="13" data-margin-top="100" style="left: -963.9893071202466px; top: 4.18420907296837px;"></div>
+			<div id="sprite-117" class="left" data-margin-left="27" data-margin-top="104" style="left: -1543.047472861708px; top: 24.20361369782249px;"></div>
+			<div id="sprite-118" class="left" data-margin-left="104" data-margin-top="103" style="left: -1307.8018435351569px; top: 21.717136625560965px;"></div>
+			<div id="sprite-119" class="left" data-margin-left="524" data-margin-top="101" style="left: -1765.6300518618036px; top: 11.99161401144566px;"></div>
+			<div id="sprite-120" class="left block" data-margin-left="134" data-margin-top="105" style="left: -1782.0836046811014px; top: 21.84936803051961px;"></div>
+			<div id="sprite-121" class="left block" data-margin-left="149" data-margin-top="103" style="left: -916.4520494469849px; top: 16.891106264325195px;"></div>
+			<div id="sprite-122" class="left" data-margin-left="221" data-margin-top="104" style="left: -1382.562561278546px; top: 24.20361369782249px;"></div>
+			<div id="sprite-123" class="right block" data-margin-left="538" data-margin-top="101" style="left: 1390.7762215607665px; top: 10.792452610301094px;"></div>
+			<div id="sprite-124" class="right block" data-margin-left="746" data-margin-top="101" style="left: 1539.54327692828px; top: 11.99161401144566px;"></div>
+			<div id="sprite-125" class="right block" data-margin-left="792" data-margin-top="101" style="left: 1027.6671587887438px; top: 7.194968406867395px;"></div>
+			<div id="sprite-126" class="right" data-margin-left="761" data-margin-top="105" style="left: 1383.9478753291614px; top: 25.490929368939547px;"></div>
+			<div id="sprite-127" class="right block" data-margin-left="296" data-margin-top="103" style="left: 1621.8724377780695px; top: 19.30412144494308px;"></div>
+			<div id="sprite-128" class="right" data-margin-left="776" data-margin-top="103" style="left: 991.7497313474939px; top: 21.717136625560965px;"></div>
+			<div id="sprite-129" class="right" data-margin-left="598" data-margin-top="102" style="left: 1626.7832395483688px; top: 18.042517435901324px;"></div>
+			<div id="sprite-130" class="left block" data-margin-left="210" data-margin-top="103" style="left: -1630.7892685294455px; top: 14.478091083707309px;"></div>
+			<div id="sprite-131" class="left block" data-margin-left="86" data-margin-top="100" style="left: -1583.6272371258947px; top: 4.18420907296837px;"></div>
+			<div id="sprite-132" class="right block" data-margin-left="432" data-margin-top="105" style="left: 1588.5314742908636px; top: 29.13249070735948px;"></div>
+			<div id="sprite-133" class="right" data-margin-left="358" data-margin-top="103" style="left: 1305.8203255904066px; top: 21.717136625560965px;"></div>
+			<div id="sprite-134" class="right" data-margin-left="284" data-margin-top="100" style="left: 1967.8611183695853px; top: 5.977441532811958px;"></div>
+			<div id="sprite-135" class="left block" data-margin-left="178" data-margin-top="102" style="left: -1259.4768543476778px; top: 10.825510461540796px;"></div>
+			<div id="sprite-136" class="right block" data-margin-left="611" data-margin-top="101" style="left: 1890.9075721712886px; top: 8.39412980801196px;"></div>
+			<div id="sprite-137" class="left" data-margin-left="372" data-margin-top="103" style="left: -1444.526581722923px; top: 19.30412144494308px;"></div>
+			<div id="sprite-138" class="left" data-margin-left="522" data-margin-top="118" style="left: -1978.1298253225038px; top: 107.86714277306736px;"></div>
+			<div id="sprite-139" class="left block" data-margin-left="344" data-margin-top="117" style="left: -2088.330766561468px; top: 113.21378230135838px;"></div>
+			<div id="sprite-140" class="left block" data-margin-left="446" data-margin-top="118" style="left: -1956.4635621754885px; top: 71.91142851537823px;"></div>
+			<div id="sprite-141" class="right block" data-margin-left="284" data-margin-top="117" style="left: 1919.2395183148715px; top: 79.24964761095086px;"></div>
+			<div id="sprite-142" class="left" data-margin-left="147" data-margin-top="118" style="left: -1462.472762423538px; top: 95.88190468717097px;"></div>
+			<div id="sprite-143" class="right" data-margin-left="539" data-margin-top="119" style="left: 1536.37880778673px; top: 113.87493932615172px;"></div>
+			<div id="sprite-144" class="left" data-margin-left="28" data-margin-top="117" style="left: -1228.8733391679395px; top: 113.21378230135838px;"></div>
+			<div id="sprite-145" class="left block" data-margin-left="207" data-margin-top="115" style="left: -1546.6774408982308px; top: 60.028066814168014px;"></div>
+			<div id="sprite-146" class="right block" data-margin-left="326" data-margin-top="115" style="left: 2289.6787167048137px; top: 70.03274461652936px;"></div>
+			<div id="sprite-147" class="right" data-margin-left="765" data-margin-top="119" style="left: 1438.312075374811px; top: 101.22216828991263px;"></div>
+			<div id="sprite-148" class="left block" data-margin-left="88" data-margin-top="120" style="left: -1385.300933481178px; top: 119.91579373047588px;"></div>
+			<div id="sprite-149" class="left block" data-margin-left="225" data-margin-top="115" style="left: -1330.5896773040527px; top: 100.04677802361336px;"></div>
+			<div id="sprite-150" class="right" data-margin-left="359" data-margin-top="117" style="left: 2228.34262816693px; top: 67.92826938081504px;"></div>
+			<div id="sprite-151" class="right block" data-margin-left="300" data-margin-top="116" style="left: 2125.4066886892538px; top: 74.62834028270242px;"></div>
+			<div id="sprite-152" class="right" data-margin-left="597" data-margin-top="119" style="left: 2046.3258163287085px; top: 101.22216828991263px;"></div>
+			<div id="sprite-153" class="right block" data-margin-left="795" data-margin-top="120" style="left: 1102.5417239573299px; top: 119.91579373047588px;"></div>
+			<div id="sprite-154" class="right" data-margin-left="434" data-margin-top="115" style="left: 1993.7555724723925px; top: 100.04677802361336px;"></div>
+			<div id="sprite-155" class="right block" data-margin-left="311" data-margin-top="118" style="left: 1743.050870177387px; top: 71.91142851537823px;"></div>
+			<div id="sprite-156" class="left" data-margin-left="372" data-margin-top="117" style="left: -1635.9847521438214px; top: 79.24964761095086px;"></div>
+			<div id="sprite-157" class="left block" data-margin-left="164" data-margin-top="117" style="left: -1204.1020098069732px; top: 90.57102584108671px;"></div>
+			<div id="sprite-158" class="right" data-margin-left="776" data-margin-top="120" style="left: 1190.2189982282905px; top: 119.91579373047588px;"></div>
+			<div id="sprite-159" class="left" data-margin-left="101" data-margin-top="120" style="left: -1857.6622486159781px; top: 133.23977081163986px;"></div>
+			<div id="sprite-160" class="left block" data-margin-left="178" data-margin-top="117" style="left: -1819.0771865509641px; top: 67.92826938081504px;"></div>
+			<div id="sprite-161" class="right block" data-margin-left="611" data-margin-top="119" style="left: 1573.4262400312327px; top: 88.56939725367354px;"></div>
+			<div id="sprite-162" class="left" data-margin-left="13" data-margin-top="115" style="left: -1158.1452551254474px; top: 80.0374224188907px;"></div>
+			<div id="sprite-163" class="left block" data-margin-left="132" data-margin-top="116" style="left: -1631.798384666208px; top: 95.95072322061738px;"></div>
+			<div id="sprite-164" class="right block" data-margin-left="615" data-margin-top="133" style="left: 2418.999126149323px; top: 223.83907272166581px;"></div>
+			<div id="sprite-165" class="left block" data-margin-left="88" data-margin-top="130" style="left: -1117.3994386009729px; top: 121.4283463945992px;"></div>
+			<div id="sprite-166" class="left" data-margin-left="26" data-margin-top="130" style="left: -1211.3863072683444px; top: 141.6664041270324px;"></div>
+			<div id="sprite-167" class="right" data-margin-left="537" data-margin-top="135" style="left: 1943.7281902876039px; top: 190.6627128391982px;"></div>
+			<div id="sprite-168" class="right block" data-margin-left="521" data-margin-top="130" style="left: 1977.205237150631px; top: 182.1425195918988px;"></div>
+			<div id="sprite-169" class="left" data-margin-left="105" data-margin-top="133" style="left: -1228.3795562543635px; top: 223.83907272166581px;"></div>
+			<div id="sprite-170" class="left block" data-margin-left="224" data-margin-top="132" style="left: -1618.1534257196358px; top: 129.98970598603967px;"></div>
+			<div id="sprite-171" class="right block" data-margin-left="464" data-margin-top="132" style="left: 1764.8315825107559px; top: 151.65465698371295px;"></div>
+			<div id="sprite-172" class="right block" data-margin-left="447" data-margin-top="131" style="left: 1882.1601815443191px; top: 167.5973425420972px;"></div>
+			<div id="sprite-173" class="right" data-margin-left="596" data-margin-top="133" style="left: 2299.819169202454px; top: 201.45516544949922px;"></div>
+			<div id="sprite-174" class="left" data-margin-left="165" data-margin-top="135" style="left: -1571.4487578936614px; top: 238.32839104899773px;"></div>
+			<div id="sprite-175" class="right" data-margin-left="792" data-margin-top="134" style="left: 1542.5699361887168px; top: 138.63921984745252px;"></div>
+			<div id="sprite-176" class="left" data-margin-left="11" data-margin-top="130" style="left: -1960.9605931834312px; top: 141.6664041270324px;"></div>
+			<div id="sprite-177" class="left block" data-margin-left="433" data-margin-top="135" style="left: -2486.6356958621036px; top: 190.6627128391982px;"></div>
+			<div id="sprite-178" class="left block" data-margin-left="387" data-margin-top="131" style="left: -2311.5680840913183px; top: 188.5470103598593px;"></div>
+			<div id="sprite-179" class="left" data-margin-left="371" data-margin-top="132" style="left: -2015.9445869371534px; top: 216.6495099767328px;"></div>
+			<div id="sprite-180" class="left" data-margin-left="208" data-margin-top="130" style="left: -1824.0414511741737px; top: 121.4283463945992px;"></div>
+			<div id="sprite-181" class="right" data-margin-left="779" data-margin-top="135" style="left: 1299.3984034519342px; top: 166.82987373429842px;"></div>
+			<div id="sprite-182" class="right block" data-margin-left="285" data-margin-top="135" style="left: 2453.226003211365px; top: 190.6627128391982px;"></div>
+			<div id="sprite-183" class="left block" data-margin-left="149" data-margin-top="135" style="left: -1922.250530726415px; top: 214.49555194409797px;"></div>
+			<div id="sprite-184" class="right block" data-margin-left="611" data-margin-top="146" style="left: 2549.479611803359px; top: 320.64590447558544px;"></div>
+			<div id="sprite-185" class="left block" data-margin-left="282" data-margin-top="146" style="left: -2054.029051060261px; top: 192.38754268535124px;"></div>
+			<div id="sprite-186" class="right block" data-margin-left="538" data-margin-top="145" style="left: 2233.2939746288534px; top: 219.08518760447765px;"></div>
+			<div id="sprite-187" class="left block" data-margin-left="149" data-margin-top="149" style="left: -2480.083984223913px; top: 275.0939882178946px;"></div>
+			<div id="sprite-188" class="right" data-margin-left="626" data-margin-top="150" style="left: 2527.006341651142px; top: 316.51332668664554px;"></div>
+			<div id="sprite-189" class="right block" data-margin-left="476" data-margin-top="146" style="left: 2427.8344613395807px; top: 320.64590447558544px;"></div>
+			<div id="sprite-190" class="right block" data-margin-left="795" data-margin-top="146" style="left: 2084.4403386762056px; top: 192.38754268535124px;"></div>
+			<div id="sprite-191" class="left block" data-margin-left="29" data-margin-top="148" style="left: -2336.2124360469065px; top: 235.2631591759998px;"></div>
+			<div id="sprite-192" class="right" data-margin-left="643" data-margin-top="144" style="left: 1979.3226200163658px; top: 244.27880427213813px;"></div>
+			<div id="sprite-193" class="right" data-margin-left="375" data-margin-top="150" style="left: 2007.8826003590784px; top: 316.51332668664554px;"></div>
+			<div id="sprite-194" class="left" data-margin-left="208" data-margin-top="146" style="left: -2402.491721659627px; top: 320.64590447558544px;"></div>
+			<div id="sprite-195" class="left block" data-margin-left="221" data-margin-top="150" style="left: -2379.4250286653682px; top: 211.00888445776368px;"></div>
+			<div id="sprite-196" class="right block" data-margin-left="658" data-margin-top="147" style="left: 1793.7475353893756px; top: 229.8447903234171px;"></div>
+			<div id="sprite-197" class="right block" data-margin-left="387" data-margin-top="148" style="left: 2022.411971775255px; top: 268.8721819154283px;"></div>
+			<div id="sprite-198" class="left" data-margin-left="164" data-margin-top="149" style="left: -1621.1971631037936px; top: 309.4807367451315px;"></div>
+			<div id="sprite-199" class="right" data-margin-left="673" data-margin-top="147" style="left: 2033.253598353298px; top: 328.3497004620244px;"></div>
+			<div id="sprite-200" class="right block" data-margin-left="596" data-margin-top="149" style="left: 2601.126504741591px; top: 206.32049116342097px;"></div>
+			<div id="sprite-201" class="right" data-margin-left="765" data-margin-top="145" style="left: 1904.349433219073px; top: 219.08518760447765px;"></div>
+			<div id="sprite-202" class="left block" data-margin-left="269" data-margin-top="147" style="left: -2519.909534801268px; top: 262.67976036961954px;"></div>
+			<div id="sprite-203" class="right block" data-margin-left="450" data-margin-top="145" style="left: 2495.4413486259195px; top: 281.6809554914713px;"></div>
+			<div id="sprite-204" class="right block" data-margin-left="703" data-margin-top="146" style="left: 1500.290189053269px; top: 320.64590447558544px;"></div>
+			<div id="sprite-205" class="left block" data-margin-left="87" data-margin-top="150" style="left: -2193.0065280517597px; top: 211.00888445776368px;"></div>
+			<div id="sprite-206" class="right block" data-margin-left="523" data-margin-top="150" style="left: 2739.316300683308px; top: 246.17703186739098px;"></div>
+			<div id="sprite-207" class="left block" data-margin-left="11" data-margin-top="149" style="left: -1224.5897554501253px; top: 275.0939882178946px;"></div>
+			<div id="sprite-208" class="left" data-margin-left="101" data-margin-top="149" style="left: -1904.4881685706996px; top: 309.4807367451315px;"></div>
+			<div id="sprite-209" class="right block" data-margin-left="465" data-margin-top="146" style="left: 2207.3526261239817px; top: 320.64590447558544px;"></div>
+			<div id="sprite-210" class="right" data-margin-left="776" data-margin-top="144" style="left: 2009.4073210172478px; top: 183.20910320410363px;"></div>
+			<div id="sprite-211" class="right" data-margin-left="716" data-margin-top="147" style="left: 2317.3485560179506px; top: 229.8447903234171px;"></div>
+			<div id="sprite-212" class="right block" data-margin-left="476" data-margin-top="163" style="left: 2800.639352529797px; top: 365.28467590145794px;"></div>
+			<div id="sprite-213" class="right" data-margin-left="719" data-margin-top="161" style="left: 1774.7687473071535px; top: 396.05363422511994px;"></div>
+			<div id="sprite-214" class="right block" data-margin-left="672" data-margin-top="161" style="left: 2309.668137917501px; top: 440.0595935834666px;"></div>
+			<div id="sprite-215" class="right block" data-margin-left="658" data-margin-top="164" style="left: 2757.9672445448496px; top: 278.9604401653397px;"></div>
+			<div id="sprite-216" class="right block" data-margin-left="734" data-margin-top="164" style="left: 2441.7760503470313px; top: 325.45384685956304px;"></div>
+			<div id="sprite-217" class="right" data-margin-left="645" data-margin-top="164" style="left: 2393.0241041050767px; top: 371.9472535537863px;"></div>
+			<div id="sprite-218" class="right" data-margin-left="629" data-margin-top="159" style="left: 2299.3986016610097px; top: 381.2942394660585px;"></div>
+			<div id="sprite-219" class="right block" data-margin-left="613" data-margin-top="163" style="left: 2419.552849835243px; top: 456.6058448768224px;"></div>
+			<div id="sprite-220" class="right block" data-margin-left="597" data-margin-top="161" style="left: 2323.38350690751px; top: 264.0357561500799px;"></div>
+			<div id="sprite-221" class="right block" data-margin-left="540" data-margin-top="163" style="left: 2696.706669976737px; top: 319.62409141377566px;"></div>
+			<div id="sprite-222" class="right block" data-margin-left="748" data-margin-top="162" style="left: 2215.4806141081845px; top: 358.6514830057869px;"></div>
+			<div id="sprite-223" class="right block" data-margin-left="524" data-margin-top="163" style="left: 2470.826306561419px; top: 410.9452603891401px;"></div>
+			<div id="sprite-224" class="left" data-margin-left="509" data-margin-top="165" style="left: -3182.36993926684px; top: 473.29901995346546px;"></div>
+			<div id="sprite-225" class="right" data-margin-left="491" data-margin-top="163" style="left: 1960.8632775010703px; top: 273.96350692609343px;"></div>
+			<div id="sprite-226" class="right block" data-margin-left="702" data-margin-top="162" style="left: 2794.511017297629px; top: 313.82004763006347px;"></div>
+			<div id="sprite-227" class="left block" data-margin-left="464" data-margin-top="160" style="left: -2064.4103480380936px; top: 345.4732514844173px;"></div>
+			<div id="sprite-228" class="left" data-margin-left="401" data-margin-top="161" style="left: -2545.5724845456543px; top: 396.05363422511994px;"></div>
+			<div id="sprite-229" class="right block" data-margin-left="765" data-margin-top="161" style="left: 1496.3467568099725px; top: 440.0595935834666px;"></div>
+			<div id="sprite-230" class="right" data-margin-left="375" data-margin-top="164" style="left: 2575.495674324963px; top: 278.9604401653397px;"></div>
+			<div id="sprite-231" class="right" data-margin-left="270" data-margin-top="159" style="left: 2450.0675773306507px; top: 296.5621862513788px;"></div>
+			<div id="sprite-232" class="left" data-margin-left="224" data-margin-top="161" style="left: -2412.533405342568px; top: 352.04767486677326px;"></div>
+			<div id="sprite-233" class="left" data-margin-left="206" data-margin-top="162" style="left: -2445.7141315668446px; top: 403.48291838151016px;"></div>
+			<div id="sprite-234" class="left" data-margin-left="105" data-margin-top="162" style="left: -2146.548423252298px; top: 448.3143537572335px;"></div>
+			<div id="sprite-235" class="right block" data-margin-left="778" data-margin-top="164" style="left: 1805.2149237020835px; top: 278.9604401653397px;"></div>
+			<div id="sprite-236" class="left block" data-margin-left="88" data-margin-top="163" style="left: -2405.695158828168px; top: 319.62409141377566px;"></div>
+			<div id="sprite-237" class="left block" data-margin-left="28" data-margin-top="160" style="left: -1450.4085921774576px; top: 345.4732514844173px;"></div>
+			<div id="sprite-238" class="left block" data-margin-left="11" data-margin-top="160" style="left: -2057.5881063063084px; top: 388.65740791996944px;"></div>
+			<div id="sprite-239" class="right block" data-margin-left="390" data-margin-top="165" style="left: 3276.174948475322px; top: 473.29901995346546px;"></div>
+			</div>
+			</div>
+			<h2>+</h2>
+			<div id="fontsFeature">
+			<div id="departureBoard">
+			<div class="splitFlap">
+			<span class="top">1<span class="f-1-6"></span></span><span class="bottom">1<span class="f-1-6"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">0<span class="f-0-7"></span></span><span class="bottom">0<span class="f-0-7"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top down">0<span class="f-0-2"></span></span><span class="bottom">0<span class="f-0-2"></span></span><span class="top underneath">0<span class="f-0-0"></span></span><span class="bottom">0<span class="f-0-0"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">S<span class="f-S-3"></span></span><span class="bottom">S<span class="f-S-3"></span></span>
+			</div>
+			<div class="splitFlap blank">
+			<span class="top"></span><span class="bottom"></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top down">O<span class="f-O-3"></span></span><span class="bottom">O<span class="f-O-3"></span></span><span class="top underneath">O<span class="f-O-1"></span></span><span class="bottom">O<span class="f-O-1"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">F<span class="f-F-0"></span></span><span class="bottom">F<span class="f-F-0"></span></span>
+			</div>
+			<div class="splitFlap blank">
+			<span class="top"></span><span class="bottom"></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">F<span class="f-F-1"></span></span><span class="bottom">F<span class="f-F-1"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top down">O<span class="f-O-4"></span></span><span class="bottom">O<span class="f-O-4"></span></span><span class="top underneath">O<span class="f-O-1"></span></span><span class="bottom">O<span class="f-O-1"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">N<span class="f-N-0"></span></span><span class="bottom">N<span class="f-N-0"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top">T<span class="f-T-8"></span></span><span class="bottom">T<span class="f-T-8"></span></span>
+			</div>
+			<div class="splitFlap">
+			<span class="top down">S<span class="f-S-8"></span></span><span class="bottom">S<span class="f-S-8"></span></span><span class="top underneath">S<span class="f-S-3"></span></span><span class="bottom">S<span class="f-S-3"></span></span>
+			</div>
+			</div>
+			</div>
+			</section>
+
+			<section id="content5">
+			<div class="feature">
+			<div id="connector1" class="connector"></div>
+			<div id="connector2" class="connector"></div>
+			<div id="collaborator1" class="collaborator"></div>
+			<div id="collaborator2" class="collaborator"></div>
+			<div id="collaborator3" class="collaborator"></div>
+			</div>
+			<div class="text">
+			<h2>Collaborate with anyone. Anywhere.</h2>
+			<p>
+			Canva makes it easy to work with others, letting you share and edit your designs with family, friends and coworkers.
+			</p>
+			<p>
+			Professional designers can easily collaborate with clients. Never worry about frustrating back and forth emails again. Canva also plays nice with traditional desktop design software.
+			</p>
+			</div>
+			</section>
+			-->
+			<section id="content7">
+				<!--
+				<h2>A snapshot of Canva</h2>
+				<div class="snapshotVideo">
+				<iframe width="840" height="473" src="./Canva – Amazingly simple graphic design_files/saved_resource.htm" frameborder="0" allowfullscreen=""></iframe>
+				</div>
+				-->
+			</section>
+
+			<section id="content8">
+				<h2>Want it? Secure your username</h2>
+				<form id="reservationForm2" method="GET" action="https://www.canva.com/reserve">
+					<!--
+					<label for="username">youhou.co/</label>
+					<input id="username" name="username" type="text" placeholder="username">
+					<input type="submit" value="Reserve">
+					-->
+
+				</form>
+				<%= form_tag("/reserve", method: "get") do %>
+				<%= label_tag("youhou.co/") %>
+				<%= text_field_tag(:username) %>
+				<%= submit_tag "Reserve" %>
+				<% end %>
+				<div id="social">
+					<p>
+						And follow us:
+					</p>
+					<ul>
+						<li class="twitter">
+							<a target="_blank" href="#"> <img src=<%= request.protocol + request.host_with_port + asset_path('follow_twitter.png')%>> <img class="on" src=<%= request.protocol + request.host_with_port + asset_path('follow_twitter_on.png')%>> <span>Twitter</span> </a>
+						</li>
+						<li class="facebook">
+							<a target="_blank" href="#"> <img src=<%= request.protocol + request.host_with_port + asset_path('follow_facebook.png')%>> <img class="on" src=<%= request.protocol + request.host_with_port + asset_path('follow_facebook_on.png')%>> <span>Facebook</span> </a>
+						</li>
+						<li class="pinterest">
+							<a target="_blank" href="#"> <img src=<%= request.protocol + request.host_with_port + asset_path('follow_pinterest.png')%>> <img class="on" src=<%= request.protocol + request.host_with_port + asset_path('follow_pinterest_on.png')%>> <span>Pinterest</span> </a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+		<footer>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Press</a>
+				</li>
+				<li>
+					<a href="#">Designers</a>
+				</li>
+				<li>
+					<a href="mailto:youhou.co@example.com">Contact us</a>
+				</li>
+			</ul>
+			<p class="copyright">
+				Youhou © 2013
+			</p>
+		</footer>
+		<script type="text/javascript">
+			if (!NREUMQ.f) {
+				NREUMQ.f = function() {
+					NREUMQ.push(["load", new Date().getTime()]);
+					var e = document.createElement("script");
+					e.type = "text/javascript";
+					e.src = (("http:" === document.location.protocol) ? "http:" : "https:") + "//" + "js-agent.newrelic.com/nr-100.js";
+					document.body.appendChild(e);
+					if (NREUMQ.a)
+						NREUMQ.a();
+				};
+				NREUMQ.a = window.onload;
+				window.onload = NREUMQ.f;
+			};
+			NREUMQ.push(["nrfj", "beacon-3.newrelic.com", "194969ee20", "1601074", "YQQANkMDCENVAkRfDlhOMRJDCwhXdw5eQhNZDQ4HQ00uX1kEc1kPQhMNDl0HFB9TBER6AFgFCwxWMgdXUQ==", 15, 3, new Date().getTime(), "", "", "", "", ""]);
+		</script>
+		<script type="text/javascript" src="./Canva – Amazingly simple graphic design_files/nr-100.js"></script><script type="text/javascript" src="./Canva – Amazingly simple graphic design_files/194969ee20"></script>
+	</body>
+</html>
