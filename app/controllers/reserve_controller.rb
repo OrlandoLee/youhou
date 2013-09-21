@@ -1,4 +1,5 @@
 class ReserveController < ApplicationController
+
   def index
   end
   
@@ -23,7 +24,5 @@ class ReserveController < ApplicationController
       #raise 'username or email exists'
     end
   end
-  
-  def canva
-  end
+
 end

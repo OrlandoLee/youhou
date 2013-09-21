@@ -1,0 +1,13 @@
+
+/* Arrow embedded in a font for use in the interface */
+@font-face {
+	font-family: 'icomoon';
+	src:url(/static/fonts/icomoon.eot);
+	src:url(/static/fonts/icomoon.eot?#iefix) format('embedded-opentype'),
+		url(/static/fonts/icomoon.svg#icomoon) format('svg'),
+		url(/static/fonts/icomoon.woff) format('woff'),
+		url(/static/fonts/icomoon.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
