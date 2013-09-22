@@ -15,3 +15,11 @@
 //= require bigvideo/jquery.imagesloaded.min
 //= require bigvideo/video
 //= require bigvideo/bigvideo
+
+
+//= require ga
+//= require mixpanel-2.2.min
+//= require mixpanel.min.39fc6e8
+//= require jquery.easing-1.3.min.a5cbacf
+//= require jquery-1.8.3.min.e128811
+//= require vFX4fOJujEGQue0oxfvaKA.f5384bc

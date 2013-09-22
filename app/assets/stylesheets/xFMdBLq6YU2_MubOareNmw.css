@@ -194,7 +194,7 @@ header > div {
 	width: 100px;
 	height: 79px;
 	border-top: 4px solid #00c4cc;
-	background-image: url('https://di8vc3anm8wl1.cloudfront.net/static/images/home/logo.30e09a9.png');
+	background-image: url('http://localhost/assets/Youhoulogo.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	text-decoration: none;
@@ -206,7 +206,7 @@ header > div {
 
 body.alert #logo a {
 	border-top-color: #ffcc00;
-	background-image: url('https://d29498xbqfhwsb.cloudfront.net/static/images/home/logo_yellow.71b9460.png');
+	background-image: url('http://localhost/assets/Youhoulogo.png');
 }
 
 #logo a:hover {
