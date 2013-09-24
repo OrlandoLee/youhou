@@ -1,3 +1,7 @@
+<% if User.find_by_username(@username)%>
+  <%="sorry 你慢了一步"%>
+<%end%>
+
 <%= form_tag("/reserve", method: "post") do %>
   <%= label_tag("youhou.co/") %>
   <%= text_field_tag(:username,@username) %>

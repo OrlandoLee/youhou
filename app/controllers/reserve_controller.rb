@@ -10,7 +10,12 @@ class ReserveController < ApplicationController
   
   def save
     @user = User.new
-    if !User.find_by_username(params[:username]) && !User.find_by_email(params[:email]) #not safe
+    @username_flag = false
+    @email_flag = false
+    
+    @username_flag = User.find_by_username(params[:username])
+    @email_flag = User.find_by_email(params[:email])
+    if !@username_flag && !@email_flag
      @user.username = params[:username]
      @user.email = params[:email]
      if @user.save
@@ -19,9 +24,6 @@ class ReserveController < ApplicationController
       #raise 'can not send email'
        logger.info("can not send email for #{@user.username}")
      end
-    else
-      logger.info("username: #{@user.username} or email exists")
-      #raise 'username or email exists'
     end
   end
 

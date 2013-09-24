@@ -1,5 +1,13 @@
-<%=User.all.each do |u|%>
+<%if @username_flag%>
+  <%="您晚了一步,请选择另一个用户名吧"%>
+<%elsif @email_flag%>
+  <%="您是不是输错邮箱了?"%>
+<%else%>
+  <%=User.all.each do |u|%>
 	<%= u.username%>
 	<%= u.email%>
+  <%end%>
 <%end%>
+
+
 	
