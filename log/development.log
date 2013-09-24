@@ -9961,3 +9961,120 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 17:14:02
 
 
 Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:14:02 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:14:45 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:15:28 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo/video.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/bigvideo/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:16:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-23 17:16:49 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo/jquery-1.7.2.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo/jquery-ui-1.8.22.custom.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo/video.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/bigvideo/bigvideo.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:16:50 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-23 17:16:55 -0700
