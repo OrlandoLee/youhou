@@ -16,7 +16,6 @@
 //= require jquery.easing-1.3.min.a5cbacf
 //= require jquery-1.8.3.min.e128811
 //= require vFX4fOJujEGQue0oxfvaKA.f5384bc
-//below things must be put in the behind
 //= require bigvideo/jquery-1.7.2.min
 //= require bigvideo/jquery-ui-1.8.22.custom.min
 //= require bigvideo/jquery.imagesloaded.min
