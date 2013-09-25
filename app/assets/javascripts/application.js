@@ -10,8 +10,8 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require bigvideo/jquery-1.7.2.min
-//= require bigvideo/jquery-ui-1.8.22.custom.min
-//= require bigvideo/jquery.imagesloaded.min
-//= require bigvideo/video
-//= require bigvideo/bigvideo
+// require bigvideo/jquery-1.7.2.min
+// require bigvideo/jquery-ui-1.8.22.custom.min
+// require bigvideo/jquery.imagesloaded.min
+// require bigvideo/video
+// require bigvideo/bigvideo
