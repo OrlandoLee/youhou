@@ -11890,3 +11890,40 @@ Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-29 13:01:10 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (56.6ms)
+Completed 200 OK in 160ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09-29 13:01:11 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-29 13:01:12 -0700

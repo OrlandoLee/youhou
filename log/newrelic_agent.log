@@ -33,3 +33,20 @@
 [09/29/13 12:58:11 -0700 cs-210-138.cs.ucla.edu (3267)] INFO : Installing Rails4 Error instrumentation
 [09/29/13 12:58:11 -0700 cs-210-138.cs.ucla.edu (3267)] INFO : Finished instrumentation
 [09/29/13 12:58:11 -0700 cs-210-138.cs.ucla.edu (3267)] INFO : Doing deferred dependency-detection before Rack startup
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Starting the New Relic agent in "development" environment.
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Reading configuration from 
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] ERROR : Unable to read configuration file : no implicit conversion of nil into String
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Enabling the Request Sampler.
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Environment: development
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Dispatcher: webrick
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Application: development
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing Net instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing deferred Rack instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing Rails 4 Controller instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing Rails 4 view instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing ActiveRecord 4 instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Installing Rails4 Error instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Finished instrumentation
+[09/29/13 13:01:06 -0700 cs-210-138.cs.ucla.edu (3297)] INFO : Doing deferred dependency-detection before Rack startup
