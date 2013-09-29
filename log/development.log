@@ -11816,3 +11816,77 @@ Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-27 16:28:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (96.3ms)
+Completed 200 OK in 163ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-29 12:55:54 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-29 12:55:55 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-09-29 12:55:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 101ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-29 12:58:32 -0700
