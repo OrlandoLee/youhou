@@ -67,3 +67,71 @@
 [09/29/13 14:39:41 -0700 Orlandos-MacBook-Air.local (3673)] INFO : Installing Rails4 Error instrumentation
 [09/29/13 14:39:41 -0700 Orlandos-MacBook-Air.local (3673)] INFO : Finished instrumentation
 [09/29/13 14:39:41 -0700 Orlandos-MacBook-Air.local (3673)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Reading configuration from 
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] ERROR : Unable to read configuration file : no implicit conversion of nil into String
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Enabling the Request Sampler.
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Environment: development
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Dispatcher: webrick
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Application: development
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing Net instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing deferred Rack instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing Rails 4 Controller instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing Rails 4 view instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing ActiveRecord 4 instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Installing Rails4 Error instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Finished instrumentation
+[10/02/13 16:40:37 -0700 Orlandos-MacBook-Air.local (1727)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Reading configuration from 
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] ERROR : Unable to read configuration file : no implicit conversion of nil into String
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Enabling the Request Sampler.
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Environment: development
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Dispatcher: webrick
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Application: development
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing Net instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing deferred Rack instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing Rails 4 Controller instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing Rails 4 view instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing ActiveRecord 4 instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Installing Rails4 Error instrumentation
+[10/02/13 16:49:25 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Finished instrumentation
+[10/02/13 16:49:26 -0700 Orlandos-MacBook-Air.local (1770)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Reading configuration from 
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] ERROR : Unable to read configuration file : no implicit conversion of nil into String
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Enabling the Request Sampler.
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Environment: development
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Dispatcher: webrick
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Application: development
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing Net instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing deferred Rack instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing Rails 4 Controller instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing Rails 4 view instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing ActiveRecord 4 instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Installing Rails4 Error instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Finished instrumentation
+[10/02/13 16:51:16 -0700 Orlandos-MacBook-Air.local (1793)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Reading configuration from 
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] ERROR : Unable to read configuration file : no implicit conversion of nil into String
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Enabling the Request Sampler.
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Environment: development
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Dispatcher: webrick
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Application: development
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing Net instrumentation
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing deferred Rack instrumentation
+[10/02/13 17:07:03 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing Rails 4 Controller instrumentation
+[10/02/13 17:07:04 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing Rails 4 view instrumentation
+[10/02/13 17:07:04 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing ActiveRecord 4 instrumentation
+[10/02/13 17:07:04 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Installing Rails4 Error instrumentation
+[10/02/13 17:07:04 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Finished instrumentation
+[10/02/13 17:07:04 -0700 Orlandos-MacBook-Air.local (1906)] INFO : Doing deferred dependency-detection before Rack startup
