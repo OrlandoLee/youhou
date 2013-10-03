@@ -13162,3 +13162,74 @@ Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 17:11:44 -0700
 
 
 Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 17:11:44 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 22:59:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (107.5ms)
+Completed 200 OK in 222ms (Views: 200.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/UvzCuZIsYyOUvdCRbHLImw.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/bigvideo.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/fonts.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/z1DFQKBUpryl7uYEiihgBQ.css?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-02 22:59:38 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 22:59:58 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 22:59:58 -0700
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-10-02 23:00:05 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  [1m[35mUser Load (4.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+  Rendered reserve/new.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 46ms (Views: 35.9ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/reserve?utf8=%E2%9C%93&username=orlando&commit=Reserve" for 127.0.0.1 at 2013-10-02 23:01:47 -0700
+Processing by ReserveController#new as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"orlando", "commit"=>"Reserve"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1[0m
+  Rendered reserve/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:01:47 -0700
+
+
+Started POST "/reserve" for 127.0.0.1 at 2013-10-02 23:03:31 -0700
+Processing by ReserveController#save as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F08OlWwAHPPoGDVymYCRaj1Q1WUCTsUE3T/3M1jALJw=", "username"=>"orlando", "email"=>"Your email address", "commit"=>"Reserve"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'orlando' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'Your email address' LIMIT 1[0m
+  Rendered reserve/save.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 9.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:03:31 -0700

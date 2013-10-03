@@ -1,5 +1,6 @@
 <% if User.find_by_username(@username)%>
-  <%="sorry 你慢了一步"%>
+<span class="error"> <%="sorry 你慢了一步"%><br> </span>  
+
 <%end%>
 
 <%= form_tag("/reserve", method: "post") do %>

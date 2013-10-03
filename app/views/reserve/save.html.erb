@@ -1,7 +1,9 @@
 <%if @username_flag%>
-  <%="您晚了一步,请选择另一个用户名吧"%>
+<span class="error"> <%="您晚了一步,请选择另一个用户名吧"%><br> </span>
+  
 <%elsif @email_flag%>
-  <%="您是不是输错邮箱了?"%>
+<span class="error"> <%="您是不是输错邮箱了?"%><br> </span>
+ 
 <%else%>
   <%=User.all.each do |u|%>
 	<%= u.username%>
