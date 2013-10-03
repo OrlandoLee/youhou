@@ -13456,3 +13456,182 @@ Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:44:10 -0700
 
 
 Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:44:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:47:51 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:47:51 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:47:51 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:47:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:50:08 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:50:09 -0700
+
+
+Started GET "/assets/test/xFMdBLq6YU2_MubOareNmw.css?body=1" for 127.0.0.1 at 2013-10-02 23:50:09 -0700
+
+
+Started GET "/assets/test/emOOX8gah1lniLfAFr9Pxg.css?body=1" for 127.0.0.1 at 2013-10-02 23:50:09 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:50:09 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:50:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:51:02 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:51:02 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:51:02 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:51:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:51:57 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:51:57 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:51:58 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:51:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:52:46 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:52:46 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:52:46 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:52:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:53:46 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:53:46 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:53:47 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:53:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:53:58 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:53:58 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:53:58 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:53:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:54:53 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (22.8ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (Invalid CSS after "	}": expected "}", was ""
+  (in /Users/orlandolee/src/youhou/app/assets/stylesheets/reserve.css.scss:151)):
+    2: <html>
+    3: <head>
+    4:   <title>Youhou</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/reserve.css.scss:151
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2472866314236900498_70328108051420'
+
+
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/orlandolee/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:56:34 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 411ms (Views: 410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:56:35 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:56:35 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:56:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:57:08 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (52.3ms)
+Completed 200 OK in 201ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:57:08 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:57:08 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:57:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-02 23:57:49 -0700
+Processing by ReserveController#index as HTML
+  Rendered reserve/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 548ms (Views: 547.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reserve.css?body=1" for 127.0.0.1 at 2013-10-02 23:57:50 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:57:50 -0700
+
+
+Started GET "/assets/main-video.mp4" for 127.0.0.1 at 2013-10-02 23:57:50 -0700
