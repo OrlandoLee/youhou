@@ -1,87 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1">
-
-
+<html>
+<head>
 <!-- Reference jQuery and jQuery UI from the CDN. Remember
 	       that the order of these two elements is important -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/jquery-ui.min.js"></script>
+</head>
 
-
-		<script type="text/javascript">
-			var NREUMQ = NREUMQ || [];
-			NREUMQ.push(["mark", "firstbyte", new Date().getTime()]);
-		</script>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-		<script type="text/javascript">
-			/* <![CDATA[ */
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-37190734-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-
-			window['_analyticsToken'] = '4bed155df3621b1f2e74f0be03f7a25b';
-			window['_analyticsEnabled'] = true;
-			/* ]]> */
-		</script>
-	</head>
 	<body>
 		<span id="screenIsSmall"></span>
-		<!--
-		<header class="content lightBG">
-			<div class="inner">
-				<p id="logo">
-					<a href="#" title="Youhou(beta)">Youhou</a>
-				</p>
-				
-				<menu>
-					<li>
-						<a href="#">Log in</a>
-					</li>
-					<li id="miniGetStarted" style="margin-right: 0px; opacity: 1;">
-						<a href="#">Sign up</a>
-					</li>
-				</menu>
-				
-			</div>
-		</header>
-		-->
-		<section id="hero" style="height: 909px;">
-			<!--
-			<script>
-								$(function() {
-				var BV = new $.BigVideo();
-				BV.init();
-				BV.show("<%= request.protocol + request.host_with_port + asset_path('main-video.mp4')%>
-					", {ambient:true});
-					});
-			</script>
-			-->
+			<section id="hero" style="height: 909px;">
 			<video autoplay="1" loop="1">
 				<source src="<%= request.protocol + request.host_with_port + asset_path('main-video.mp4')%>" type="video/mp4">
 			</video>
+			
 			<div class="amazing" style="opacity: 1;">
 				<p>
 					<h1>Amazingly simple</h1>
 					<h1>ad share</h1>
 				</p>
 			</div>
-
+			
 			<a id="learnMore" href="#content8" style="opacity: 1;"><span></span>Scroll down to learn more</a>
+		
 			<section id="sidekick">
 				<p>
 					Reserve your username
@@ -104,57 +44,10 @@
 				<%= text_field_tag(:username) %>
 				<%= submit_tag "Reserve" %>
 				<% end %>
-				<!--
-				<div id="social">
-					<p>
-						And follow us:
-					</p>
-					<ul>
-						<li class="twitter">
-							<a target="_blank" href="#"> <img src="<%= request.protocol + request.host_with_port + asset_path('follow_twitter.png')%>"> <img class="on" src="<%= request.protocol + request.host_with_port + asset_path('follow_twitter_on.png')%>"> <span>Twitter</span> </a>
-						</li>
-						<li class="facebook">
-							<a target="_blank" href="#"> <img src="<%= request.protocol + request.host_with_port + asset_path('follow_facebook.png')%>"> <img class="on" src="<%= request.protocol + request.host_with_port + asset_path('follow_facebook_on.png')%>"> <span>Facebook</span> </a>
-						</li>
-						<li class="pinterest">
-							<a target="_blank" href="#"> <img src="<%= request.protocol + request.host_with_port + asset_path('follow_pinterest.png')%>"> <img class="on" src="<%= request.protocol + request.host_with_port + asset_path('follow_pinterest_on.png')%>"> <span>Pinterest</span> </a>
-						</li>
-					</ul>
-				</div>
-				-->
+			
 			</section>		
 		</section>
-		<!--
-		<footer>
-			<ul>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="mailto:youhou.co@example.com">Contact us</a>
-				</li>
-			</ul>
-			<p class="copyright">
-				Youhou © 2013
-			</p>
-		</footer>
-		-->	
-		<script type="text/javascript">
-			if (!NREUMQ.f) {
-				NREUMQ.f = function() {
-					NREUMQ.push(["load", new Date().getTime()]);
-					var e = document.createElement("script");
-					e.type = "text/javascript";
-					e.src = (("http:" === document.location.protocol) ? "http:" : "https") + "//" + "js-agent.newrelic.com/nr-100.js";
-					document.body.appendChild(e);
-					if (NREUMQ.a)
-						NREUMQ.a();
-				};
-				NREUMQ.a = window.onload;
-				window.onload = NREUMQ.f;
-			};
-			NREUMQ.push(["nrfj", "beacon-3.newrelic.com", "194969ee20", "1601074", "YQQANkMDCENVAkRfDlhOMRJDCwhXdw5eQhNZDQ4HQ00uX1kEc1kPQhMNDl0HFB9TBER6AFgFCwxWMgdXUQ==", 15, 3, new Date().getTime(), "", "", "", "", ""]);
-		</script>
+		
 
 		
 
