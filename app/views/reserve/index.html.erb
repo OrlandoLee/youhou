@@ -1,27 +1,27 @@
 <html>
-<head>
-<!-- Reference jQuery and jQuery UI from the CDN. Remember
-	       that the order of these two elements is important -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/jquery-ui.min.js"></script>
-</head>
+	<head>
+		<!-- Reference jQuery and jQuery UI from the CDN. Remember
+		that the order of these two elements is important -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/jquery-ui.min.js"></script>
+	</head>
 
 	<body>
 		<span id="screenIsSmall"></span>
-			<section id="hero" style="height: 909px;">
+		<section id="hero" style="height: 909px;">
 			<video autoplay="1" loop="1">
 				<source src="<%= request.protocol + request.host_with_port + asset_path('main-video.mp4')%>" type="video/mp4">
 			</video>
-			
+
 			<div class="amazing" style="opacity: 1;">
 				<p>
 					<h1>Amazingly simple</h1>
 					<h1>ad share</h1>
 				</p>
 			</div>
-			
+
 			<a id="learnMore" href="#content8" style="opacity: 1;"><span></span>Scroll down to learn more</a>
-		
+
 			<section id="sidekick">
 				<p>
 					Reserve your username
@@ -44,12 +44,9 @@
 				<%= text_field_tag(:username) %>
 				<%= submit_tag "Reserve" %>
 				<% end %>
-			
-			</section>		
-		</section>
-		
 
-		
+			</section>
+		</section>
 
 	</body>
 </html>

@@ -1,14 +1,79 @@
-<% if User.find_by_username(@username)%>
-<span class="error"> <%="sorry 你慢了一步"%><br> </span>  
-<%end%>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/tGP5LCPr7iuCDWpS7EpoIw.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/vo6Cctg-o2Lp-2BjhoOzEA.css">
+</head>
+<body class="dark">
+	
+	<div id="fb-root"></div>
+	<header><div class="inner"></div></header>
+	<!--<form id='usernameForm' action='/reserve' method="post">
+	<h1>Reserve your username</h1><span class="error"> Sorry, a user with the same username already exists.
+	<br/>
+	</span><label for="username">canva.com/</label>
+	<input id="username" name="username" type="text" placeholder="Username" value="jimmy"/>
+	<input id="email" name="email" type="text" placeholder="Your email address" value=""/>
+	<input type="submit" value="&nbsp;Reserve"/>
+	</form>-->
+	<%= form_tag("/reserve", id: "usernameForm", method: "post") do %>
+	<h1><font color="white">Reserve your username</font></h1>
+	<br />
+	<span class="error"> <% if User.find_by_username(@username) %>
+		<%= "Sorry, a user with the same username already exists."%>
+		<% end %>
+		<br />
+	</span>
+	<font color="white"><%= label_tag("youhou.co") %></font>
+	<%= text_field_tag(:username,@username) %>
+	<br />
+	<%= email_field_tag("email", "Your email address") %>
+	<br />
+	<%= submit_tag("Reserve") %>
+	<% end %>
+	<script src="https://d29498xbqfhwsb.cloudfront.net/unmellow/static/js/LS56xpsup_z9ljOiMsOaPw.f2b1f27.js"></script>
+	<script type="text/javascript">
+		if (!NREUMQ.f) {
+			NREUMQ.f = function() {
+				NREUMQ.push(["load", new Date().getTime()]);
+				var e = document.createElement("script");
+				e.type = "text/javascript";
+				e.src = (("http:" === document.location.protocol) ? "http:" : "https:") + "//" + "js-agent.newrelic.com/nr-100.js";
+				document.body.appendChild(e);
+				if (NREUMQ.a)
+					NREUMQ.a();
+			};
+			NREUMQ.a = window.onload;
+			window.onload = NREUMQ.f;
+		};
+		NREUMQ.push(["nrfj", "beacon-3.newrelic.com", "194969ee20", "1908047", "YQQANkMDCENVAkRfDlhOMRJDCwhXdw5eQhNZDQ4HQ000VUcEQkAEdQ4MFkMNClxREx9RBEIzBxFUEBBRQAhfWDFXBgc=", 4, 60, new Date().getTime(), "", "", "", "", ""]);
+	</script>
+</body>
+<script type="text/javascript">
+	var NREUMQ = NREUMQ || [];
+	NREUMQ.push(["mark", "firstbyte", new Date().getTime()]); 
+</script>
+<script type="text/javascript">
+	window['analyticsToken'] = '4bed155df3621b1f2e74f0be03f7a25b';
+	window['analyticsEnabled'] = true; 
+</script>
+<script src="https://d29498xbqfhwsb.cloudfront.net/static/lib/jquery-1.8.3.min.e128811.js"></script>
+<script src="https://di8vc3anm8wl1.cloudfront.net/static/lib/mixpanel.min.39fc6e8.js"></script>
+<script src="https://d29498xbqfhwsb.cloudfront.net/static/lib/placeholders.min.63f7f61.js"></script>
+<script src="https://di8vc3anm8wl1.cloudfront.net/unmellow/static/js/jWlCTITtmV_cx4enDTFZJg.fac9d5d.js"></script>
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-37190734-1']);
+	_gaq.push(['_trackPageview']);
 
-<%= form_tag("/reserve", method: "post") do %>
-  <%= label_tag("youhou.co/") %>
-  <%= text_field_tag(:username,@username) %>
-  <br>
-  
-  <%= email_field_tag "email","Your email address"%>
-  <br>
-  <%= submit_tag "Reserve" %>
-<% end %>
-
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+	/* ]]> */
+</script>
